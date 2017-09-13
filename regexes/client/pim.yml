@@ -40,3 +40,7 @@
 - regex: 'The Bat!(?: Voyager)?(?:[/ ](\d+[\.\d]+))?'
   name: 'The Bat!'
   version: '$1'
+  
+- regex: '^Mozilla/.*(?: iPhone|iPad|iPod) OS ([0-9._]+).*AppleWebKit/.*Mobile/.{5}$'
+  name: 'Mail'
+  version: '$1'
