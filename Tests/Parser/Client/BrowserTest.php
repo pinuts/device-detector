@@ -9,8 +9,9 @@ namespace DeviceDetector\Tests\Parser\Client;
 
 use DeviceDetector\Parser\Client\Browser;
 use \Spyc;
+use PHPUnit\Framework\TestCase;
 
-class BrowserTest extends \PHPUnit_Framework_TestCase
+class BrowserTest extends TestCase
 {
     static $browsersTested = array();
 
@@ -47,6 +48,6 @@ class BrowserTest extends \PHPUnit_Framework_TestCase
     public function testGetAvailableClients()
     {
         $available = Browser::getAvailableClients();
-        $this->assertGreaterThan(count($available), count(Browser::getAvailableBrowsers()));
+        $this->assertGreaterThanOrEqual(count($available), count(Browser::getAvailableBrowsers()));
     }
 }

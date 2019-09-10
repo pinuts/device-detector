@@ -11,8 +11,9 @@ use DeviceDetector\DeviceDetector;
 use DeviceDetector\Parser\Device\DeviceParserAbstract;
 use DeviceDetector\Parser\ParserAbstract;
 use DeviceDetector\Yaml\Symfony;
+use PHPUnit\Framework\TestCase;
 
-class DeviceDetectorTest extends \PHPUnit_Framework_TestCase
+class DeviceDetectorTest extends TestCase
 {
     /**
      * @expectedException \Exception
@@ -39,11 +40,28 @@ class DeviceDetectorTest extends \PHPUnit_Framework_TestCase
             $ymlData = \Spyc::YAMLLoad($file);
             foreach ($ymlData AS $brand => $regex) {
                 $this->assertArrayHasKey('regex', $regex);
+                $this->assertTrue(strpos($regex['regex'], '||') === false, sprintf(
+                    "Detect `||` in regex, file %s, brand %s, common regex %s",
+                    $file,
+                    $brand,
+                    $regex['regex']
+                ));
                 if (array_key_exists('models', $regex)) {
                     $this->assertInternalType('array', $regex['models']);
                     foreach ($regex['models'] AS $model) {
                         $this->assertArrayHasKey('regex', $model);
-                        $this->assertArrayHasKey('model', $model);
+                        $this->assertArrayHasKey('model', $model, sprintf(
+                            "Key model not exist, file %s, brand %s, model regex %s",
+                            $file,
+                            $brand,
+                            $model['regex']
+                        ));
+                        $this->assertTrue(strpos($model['regex'], '||') === false, sprintf(
+                            "Detect `||` in regex, file %s, brand %s, model regex %s",
+                            $file,
+                            $brand,
+                            $model['regex']
+                        ));
                     }
                 } else {
                     $this->assertArrayHasKey('device', $regex);
@@ -121,7 +139,7 @@ class DeviceDetectorTest extends \PHPUnit_Framework_TestCase
         $ua = $fixtureData['user_agent'];
         DeviceParserAbstract::setVersionTruncation(DeviceParserAbstract::VERSION_TRUNCATION_NONE);
         $uaInfo = DeviceDetector::getInfoFromUserAgent($ua);
-        $this->assertEquals($fixtureData, $uaInfo);
+        $this->assertEquals($fixtureData, $uaInfo, "UserAgent: {$ua}");
     }
 
     public function getFixtures()
@@ -234,6 +252,16 @@ class DeviceDetectorTest extends \PHPUnit_Framework_TestCase
             )
         );
         $this->assertEquals($expected, DeviceDetector::getInfoFromUserAgent($expected['user_agent']));
+    }
+
+
+    public function testParseNoDetails()
+    {
+        $user_agent = 'Googlebot/2.1 (http://www.googlebot.com/bot.html)';
+        $dd = new DeviceDetector($user_agent);
+        $dd->discardBotInformation();
+        $dd->parse();
+        $this->assertTrue($dd->getBot());
     }
 
     public function testMagicMMethods()

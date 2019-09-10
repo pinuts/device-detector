@@ -1,18 +1,95 @@
 ---
 - 
+  user_agent: Mozilla/5.0 (Linux; Android 6.0; GI-626 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "6.0"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    short_name: CM
+    version: "53.0.2785.124"
+    engine: Blink
+    engine_version: ""
+  device:
+    type: phablet
+    brand: A5
+    model: GI-626
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 4.4.2; 9002X Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "4.4.2"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    short_name: CH
+    version: "55.0.2883.91"
+    engine: Blink
+    engine_version: ""
+  device:
+    type: phablet
+    brand: AL
+    model: One Touch Pixi 3 7"
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 5.1.1; 9022X Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "5.1.1"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    short_name: CH
+    version: "56.0.2924.87"
+    engine: Blink
+    engine_version: ""
+  device:
+    type: phablet
+    brand: AL
+    model: One Touch Pixi 3 8"
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) Mobile/15B86 [FBAN/FBIOS;FBAV/144.0.0.55.89;FBBV/74129168;FBDV/iPhone10,3;FBMD/iPhone;FBSN/iOS;FBSV/11.1;FBSS/3;FBCR/AT&T;FBID/phone;FBLC/en_US;FBOP/5;FBRV/74129168]'
+  os:
+    name: iOS
+    short_name: IOS
+    version: "11.1"
+    platform: ""
+  client:
+    type: mobile app
+    name: Facebook
+    version: "144.0.0.55.89"
+  device:
+    type: phablet
+    brand: AP
+    model: iPhone X
+  os_family: iOS
+  browser_family: Unknown
+- 
   user_agent: Mozilla/5.0 (Linux; Android 4.1.2; ME371MG Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.166 Safari/537.36
   os:
     name: Android
     short_name: AND
     version: "4.1.2"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Chrome
     short_name: CH
     version: "33.0.1750.166"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: AU
@@ -25,14 +102,14 @@
     name: Android
     short_name: AND
     version: "4.3"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Chrome
     short_name: CH
     version: "28.0.1500.94"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: AU
@@ -45,14 +122,14 @@
     name: Android
     short_name: AND
     version: "4.3"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Chrome
     short_name: CH
     version: "32.0.1700.99"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: AU
@@ -65,14 +142,14 @@
     name: Android
     short_name: AND
     version: "4.3"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Chrome
     short_name: CH
     version: "33.0.1750.166"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: AU
@@ -85,14 +162,14 @@
     name: Android
     short_name: AND
     version: "4.4.2"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Chrome
     short_name: CH
     version: "39.0.2171.93"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: AU
@@ -105,18 +182,58 @@
     name: Android
     short_name: AND
     version: "4.2.2"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Chrome Mobile
     short_name: CM
     version: "34.0.1847.114"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: AU
     model: Fonepad Note 6
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 5.0; M300 Build/LRX21M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "5.0"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    short_name: CV
+    version: "55.0.2883.91"
+    engine: Blink
+    engine_version: ""
+  device:
+    type: phablet
+    brand: AW
+    model: M300
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 7.1.1; REVVLPLUS C3701A Build/143.02.171026.3701A-TMO) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "7.1.1"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    short_name: CM
+    version: "67.0.3396.87"
+    engine: Blink
+    engine_version: ""
+  device:
+    type: phablet
+    brand: CO
+    model: REVVL Plus
   os_family: Android
   browser_family: Chrome
 - 
@@ -125,34 +242,31 @@
     name: Android
     short_name: AND
     version: "4.1.2"
-    platform:
+    platform: ""
   client:
-    type: browser
-    name: Android Browser
-    short_name: AN
-    version:
-    engine: WebKit
-    engine_version: "534.24"
+    type: mobile app
+    name: Baidu Box App
+    version: "6.6.1"
   device:
     type: phablet
     brand: GI
     model: GN810
   os_family: Android
-  browser_family: Android Browser
+  browser_family: Unknown
 - 
   user_agent: Mozilla/5.0 (Linux; Android 5.0; Nexus 6 Build/LRX21D) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/37.0.0.0 Mobile Safari/537.36
   os:
     name: Android
     short_name: AND
     version: "5.0"
-    platform:
+    platform: ""
   client:
     type: browser
-    name: Chrome Mobile
-    short_name: CM
+    name: Chrome Webview
+    short_name: CV
     version: "37.0.0.0"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: GO
@@ -165,14 +279,14 @@
     name: Android
     short_name: AND
     version: "6.0"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Chrome Mobile
     short_name: CM
     version: "45.0.2454.94"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: GO
@@ -185,14 +299,14 @@
     name: Android
     short_name: AND
     version: "4.4.2"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Chrome Mobile
     short_name: CM
     version: "46.0.2490.76"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: HP
@@ -205,12 +319,12 @@
     name: Android
     short_name: AND
     version: "4.3"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Android Browser
     short_name: AN
-    version:
+    version: ""
     engine: WebKit
     engine_version: "534.30"
   device:
@@ -225,14 +339,14 @@
     name: Android
     short_name: AND
     version: "4.3"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Chrome Mobile
     short_name: CM
     version: "32.0.1700.99"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: HT
@@ -245,7 +359,7 @@
     name: Android
     short_name: AND
     version: "4.3"
-    platform:
+    platform: ""
   client:
     type: browser
     name: UC Browser
@@ -260,19 +374,39 @@
   os_family: Android
   browser_family: Unknown
 - 
+  user_agent: Mozilla/5.0 (Linux; Android 4.3; MT2L03 Build/HuaweiMT2L03) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.85 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "4.3"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    short_name: CM
+    version: "54.0.2840.85"
+    engine: Blink
+    engine_version: ""
+  device:
+    type: phablet
+    brand: HU
+    model: Ascend Mate 2
+  os_family: Android
+  browser_family: Chrome
+- 
   user_agent: Mozilla/5.0 (Linux; Android 4.4; HUAWEI MT2L03 Build/HuaweiMT2L03) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.59 Mobile Safari/537.36
   os:
     name: Android
     short_name: AND
     version: "4.4"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Chrome Mobile
     short_name: CM
     version: "39.0.2171.59"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: HU
@@ -285,14 +419,14 @@
     name: Android
     short_name: AND
     version: "4.4"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Chrome Mobile
     short_name: CM
     version: "39.0.2171.59"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: HU
@@ -305,12 +439,12 @@
     name: Android
     short_name: AND
     version: "4.4.4"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Android Browser
     short_name: AN
-    version:
+    version: ""
     engine: WebKit
     engine_version: "537.36"
   device:
@@ -325,34 +459,31 @@
     name: Android
     short_name: AND
     version: "5.1"
-    platform:
+    platform: ""
   client:
-    type: browser
-    name: Baidu Browser
-    short_name: BD
-    version: "5.3.4.0"
-    engine: WebKit
-    engine_version: "537.36"
+    type: mobile app
+    name: tieba
+    version: "6.7.2"
   device:
     type: phablet
     brand: M1
     model: M2 Note
   os_family: Android
-  browser_family: Baidu
+  browser_family: Unknown
 - 
   user_agent: m2 note/4.5 Linux/3.10.65 Android/5.1 Release/07.29.2015 Browser/Chrome40.0.2214.114 Profile/MIDP-2.0 Configuration/CLDC-1.1
   os:
     name: Android
     short_name: AND
     version: "5.1"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Chrome
     short_name: CH
-    version:
+    version: ""
     engine: WebKit
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: M1
@@ -365,14 +496,14 @@
     name: Android
     short_name: AND
     version: "5.1"
-    platform:
+    platform: ""
   client:
     type: browser
-    name: Chrome Mobile
-    short_name: CM
-    version: "40.0.2214.114"
-    engine: Blink
-    engine_version:
+    name: LieBaoFast
+    short_name: LF
+    version: "3.17.4"
+    engine: WebKit
+    engine_version: "537.36"
   device:
     type: phablet
     brand: M1
@@ -385,14 +516,14 @@
     name: Android
     short_name: AND
     version: "5.1"
-    platform:
+    platform: ""
   client:
     type: browser
-    name: Chrome Mobile
-    short_name: CM
+    name: Chrome Webview
+    short_name: CV
     version: "40.0.2214.114"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: M1
@@ -405,14 +536,14 @@
     name: Android
     short_name: AND
     version: "5.1"
-    platform:
+    platform: ""
   client:
     type: browser
-    name: Chrome Mobile
-    short_name: CM
+    name: Chrome Webview
+    short_name: CV
     version: "40.0.2214.114"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: M1
@@ -425,18 +556,38 @@
     name: Android
     short_name: AND
     version: "5.1"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Chrome Mobile
     short_name: CM
     version: "54.0.2840.68"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: M1
     model: M3 Note
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 7.1.2; MZ-M6 Note Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/45.0.2454.94 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "7.1.2"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    short_name: CV
+    version: "45.0.2454.94"
+    engine: Blink
+    engine_version: ""
+  device:
+    type: phablet
+    brand: M1
+    model: M6 Note
   os_family: Android
   browser_family: Chrome
 - 
@@ -445,14 +596,14 @@
     name: Android
     short_name: AND
     version: "4.2.1"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Chrome Mobile
     short_name: CM
     version: "42.0.2311.111"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: MC
@@ -465,14 +616,14 @@
     name: Android
     short_name: AND
     version: "4.2.2"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Chrome Mobile
     short_name: CM
     version: "43.0.2357.92"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: MC
@@ -485,12 +636,12 @@
     name: Android
     short_name: AND
     version: "4.1.2"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Android Browser
     short_name: AN
-    version:
+    version: ""
     engine: WebKit
     engine_version: "534.30"
   device:
@@ -505,14 +656,14 @@
     name: Android
     short_name: AND
     version: "4.4.2"
-    platform:
+    platform: ""
   client:
     type: browser
-    name: Chrome Mobile
-    short_name: CM
+    name: Chrome Webview
+    short_name: CV
     version: "30.0.0.0"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: MC
@@ -525,12 +676,12 @@
     name: Android
     short_name: AND
     version: "4.2.1"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Android Browser
     short_name: AN
-    version:
+    version: ""
     engine: WebKit
     engine_version: "534.30"
   device:
@@ -545,14 +696,14 @@
     name: Android
     short_name: AND
     version: "4.4.2"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Chrome Mobile
     short_name: CM
     version: "43.0.2357.78"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: MC
@@ -565,12 +716,12 @@
     name: Android
     short_name: AND
     version: "4.2.1"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Android Browser
     short_name: AN
-    version:
+    version: ""
     engine: WebKit
     engine_version: "534.30"
   device:
@@ -585,12 +736,12 @@
     name: Android
     short_name: AND
     version: "4.2.1"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Android Browser
     short_name: AN
-    version:
+    version: ""
     engine: WebKit
     engine_version: "534.30"
   device:
@@ -605,12 +756,12 @@
     name: Android
     short_name: AND
     version: "4.0.4"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Android Browser
     short_name: AN
-    version:
+    version: ""
     engine: WebKit
     engine_version: "534.30"
   device:
@@ -625,7 +776,7 @@
     name: Android
     short_name: AND
     version: "4.1"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Chrome Mobile
@@ -645,7 +796,7 @@
     name: Android
     short_name: AND
     version: "4.1"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Chrome Mobile
@@ -665,14 +816,14 @@
     name: Android
     short_name: AND
     version: "4.4.2"
-    platform:
+    platform: ""
   client:
     type: browser
-    name: Chrome
-    short_name: CH
+    name: Chrome Webview
+    short_name: CV
     version: "30.0.0.0"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: MC
@@ -685,14 +836,14 @@
     name: Android
     short_name: AND
     version: "4.4.2"
-    platform:
+    platform: ""
   client:
     type: browser
-    name: Chrome
-    short_name: CH
+    name: Chrome Webview
+    short_name: CV
     version: "30.0.0.0"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: MC
@@ -705,14 +856,14 @@
     name: Android
     short_name: AND
     version: "4.4.2"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Chrome
     short_name: CH
     version: "42.0.2311.111"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: MC
@@ -725,14 +876,14 @@
     name: Android
     short_name: AND
     version: "4.4.2"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Chrome
     short_name: CH
     version: "42.0.2311.111"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: MC
@@ -745,12 +896,12 @@
     name: Android
     short_name: AND
     version: "4.1.2"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Android Browser
     short_name: AN
-    version:
+    version: ""
     engine: WebKit
     engine_version: "534.30"
   device:
@@ -765,7 +916,7 @@
     name: Android
     short_name: AND
     version: "4.2.2"
-    platform:
+    platform: ""
   client:
     type: mobile app
     name: WeChat
@@ -782,12 +933,12 @@
     name: Android
     short_name: AND
     version: "4.2.2"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Android Browser
     short_name: AN
-    version:
+    version: ""
     engine: WebKit
     engine_version: "534.30"
   device:
@@ -802,7 +953,7 @@
     name: Android
     short_name: AND
     version: "4.2.2"
-    platform:
+    platform: ""
   client:
     type: browser
     name: UC Browser
@@ -822,14 +973,74 @@
     name: Android
     short_name: AND
     version: "4.3"
-    platform:
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    short_name: CV
+    version: "28.0.1500.94"
+    engine: Blink
+    engine_version: ""
+  device:
+    type: phablet
+    brand: SA
+    model: GALAXY Grand 2
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 4.3; SM-G710 Build/JLS36C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.82 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "4.3"
+    platform: ""
   client:
     type: browser
     name: Chrome Mobile
     short_name: CM
-    version: "28.0.1500.94"
+    version: "30.0.1599.82"
     engine: Blink
-    engine_version:
+    engine_version: ""
+  device:
+    type: phablet
+    brand: SA
+    model: GALAXY Grand 2
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "4.4.2"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    short_name: CM
+    version: "59.0.3071.125"
+    engine: Blink
+    engine_version: ""
+  device:
+    type: phablet
+    brand: SA
+    model: GALAXY Grand 2
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 4.4.4; SM-G710L Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "4.4.4"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    short_name: CM
+    version: "62.0.3202.84"
+    engine: Blink
+    engine_version: ""
   device:
     type: phablet
     brand: SA
@@ -842,12 +1053,12 @@
     name: Android
     short_name: AND
     version: "4.1.2"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Android Browser
     short_name: AN
-    version:
+    version: ""
     engine: WebKit
     engine_version: "534.30"
   device:
@@ -862,12 +1073,12 @@
     name: Android
     short_name: AND
     version: "4.1.2"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Android Browser
     short_name: AN
-    version:
+    version: ""
     engine: WebKit
     engine_version: "534.30"
   device:
@@ -882,12 +1093,12 @@
     name: Android
     short_name: AND
     version: "4.2.2"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Android Browser
     short_name: AN
-    version:
+    version: ""
     engine: WebKit
     engine_version: "534.30"
   device:
@@ -902,12 +1113,12 @@
     name: Android
     short_name: AND
     version: "4.2.2"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Android Browser
     short_name: AN
-    version:
+    version: ""
     engine: WebKit
     engine_version: "534.30"
   device:
@@ -922,12 +1133,12 @@
     name: Android
     short_name: AND
     version: "4.2.2"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Android Browser
     short_name: AN
-    version:
+    version: ""
     engine: WebKit
     engine_version: "534.30"
   device:
@@ -937,16 +1148,256 @@
   os_family: Android
   browser_family: Android Browser
 - 
+  user_agent: Mozilla/5.0 (Linux; Android 5.0.2; SAMSUNG SM-G530H Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.3 Chrome/38.0.2125.102 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "5.0.2"
+    platform: ""
+  client:
+    type: browser
+    name: Samsung Browser
+    short_name: SB
+    version: "3.3"
+    engine: WebKit
+    engine_version: "537.36"
+  device:
+    type: phablet
+    brand: SA
+    model: GALAXY Grand Prime
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-G531F Build/LMY48B) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.3 Chrome/38.0.2125.102 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "5.1.1"
+    platform: ""
+  client:
+    type: browser
+    name: Samsung Browser
+    short_name: SB
+    version: "3.3"
+    engine: WebKit
+    engine_version: "537.36"
+  device:
+    type: phablet
+    brand: SA
+    model: GALAXY Grand Prime
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-G531H Build/LMY48B) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.3 Chrome/38.0.2125.102 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "5.1.1"
+    platform: ""
+  client:
+    type: browser
+    name: Samsung Browser
+    short_name: SB
+    version: "3.3"
+    engine: WebKit
+    engine_version: "537.36"
+  device:
+    type: phablet
+    brand: SA
+    model: GALAXY Grand Prime
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-G532F Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.2 Chrome/44.0.2403.133 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "6.0.1"
+    platform: ""
+  client:
+    type: browser
+    name: Samsung Browser
+    short_name: SB
+    version: "4.2"
+    engine: WebKit
+    engine_version: "537.36"
+  device:
+    type: phablet
+    brand: SA
+    model: GALAXY Grand Prime Plus
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.158 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "6.0.1"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    short_name: CM
+    version: "66.0.3359.158"
+    engine: Blink
+    engine_version: ""
+  device:
+    type: phablet
+    brand: SA
+    model: GALAXY J2 Prime
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-G532G Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.2 Chrome/44.0.2403.133 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "6.0.1"
+    platform: ""
+  client:
+    type: browser
+    name: Samsung Browser
+    short_name: SB
+    version: "4.2"
+    engine: WebKit
+    engine_version: "537.36"
+  device:
+    type: phablet
+    brand: SA
+    model: GALAXY J2 Prime
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-G532MT Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/6.4 Chrome/56.0.2924.87 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "6.0.1"
+    platform: ""
+  client:
+    type: browser
+    name: Samsung Browser
+    short_name: SB
+    version: "6.4"
+    engine: WebKit
+    engine_version: "537.36"
+  device:
+    type: phablet
+    brand: SA
+    model: GALAXY J2 Prime (TV)
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 4.4.4; SAMSUNG-SM-G7509 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.6 Chrome/28.0.1500.94 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "4.4.4"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    short_name: CV
+    version: "28.0.1500.94"
+    engine: Blink
+    engine_version: ""
+  device:
+    type: phablet
+    brand: SA
+    model: GALAXY Mega 2
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 4.4.4; SM-G750F Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.141 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "4.4.4"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    short_name: CM
+    version: "35.0.1916.141"
+    engine: Blink
+    engine_version: ""
+  device:
+    type: phablet
+    brand: SA
+    model: GALAXY Mega 2
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 4.4.4; SM-G750H Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "4.4.4"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    short_name: CM
+    version: "55.0.2883.91"
+    engine: Blink
+    engine_version: ""
+  device:
+    type: phablet
+    brand: SA
+    model: GALAXY Mega 2
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 4.4.4; SM-G7508Q Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.137 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "4.4.4"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    short_name: CM
+    version: "64.0.3282.137"
+    engine: Blink
+    engine_version: ""
+  device:
+    type: phablet
+    brand: SA
+    model: GALAXY Mega 2
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 4.4.4; SAMSUNG-SM-G750A Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.158 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "4.4.4"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    short_name: CM
+    version: "66.0.3359.158"
+    engine: Blink
+    engine_version: ""
+  device:
+    type: phablet
+    brand: SA
+    model: GALAXY Mega 2
+  os_family: Android
+  browser_family: Chrome
+- 
   user_agent: Mozilla/5.0 (Linux; Android 4.2.2; en-us; SAMSUNG GT-I9152 Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Version/1.0 Chrome/18.0.1025.308 Mobile Safari/535.19
   os:
     name: Android
     short_name: AND
     version: "4.2.2"
-    platform:
+    platform: ""
   client:
     type: browser
-    name: Chrome Mobile
-    short_name: CM
+    name: Chrome Webview
+    short_name: CV
     version: "18.0.1025.308"
     engine: WebKit
     engine_version: "535.19"
@@ -962,7 +1413,7 @@
     name: Android
     short_name: AND
     version: "4.2.2"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Chrome Mobile
@@ -982,7 +1433,7 @@
     name: Android
     short_name: AND
     version: "4.2.2"
-    platform:
+    platform: ""
   client:
     type: browser
     name: UC Browser
@@ -1002,11 +1453,11 @@
     name: Android
     short_name: AND
     version: "4.2.2"
-    platform:
+    platform: ""
   client:
     type: browser
-    name: Chrome Mobile
-    short_name: CM
+    name: Chrome Webview
+    short_name: CV
     version: "18.0.1025.308"
     engine: WebKit
     engine_version: "535.19"
@@ -1022,14 +1473,14 @@
     name: Android
     short_name: AND
     version: "4.2.2"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Chrome Mobile
     short_name: CM
     version: "33.0.1750.136"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: SA
@@ -1037,17 +1488,177 @@
   os_family: Android
   browser_family: Chrome
 - 
+  user_agent: Mozilla/5.0 (Linux; U; Android 2.3; xx-xx; GT-N7000 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+  os:
+    name: Android
+    short_name: AND
+    version: "2.3"
+    platform: ""
+  client:
+    type: browser
+    name: Android Browser
+    short_name: AN
+    version: ""
+    engine: WebKit
+    engine_version: "533.1"
+  device:
+    type: phablet
+    brand: SA
+    model: GALAXY Note
+  os_family: Android
+  browser_family: Android Browser
+- 
+  user_agent: Mozilla/5.0 (Linux; U; Android 2.3.6; pl-pl; GT-N7000 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+  os:
+    name: Android
+    short_name: AND
+    version: "2.3.6"
+    platform: ""
+  client:
+    type: browser
+    name: Android Browser
+    short_name: AN
+    version: ""
+    engine: WebKit
+    engine_version: "533.1"
+  device:
+    type: phablet
+    brand: SA
+    model: GALAXY Note
+  os_family: Android
+  browser_family: Android Browser
+- 
+  user_agent: Mozilla/5.0 (Linux; U; Android 4.0.3; sl-si; GT-N7000 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+  os:
+    name: Android
+    short_name: AND
+    version: "4.0.3"
+    platform: ""
+  client:
+    type: browser
+    name: Android Browser
+    short_name: AN
+    version: ""
+    engine: WebKit
+    engine_version: "534.30"
+  device:
+    type: phablet
+    brand: SA
+    model: GALAXY Note
+  os_family: Android
+  browser_family: Android Browser
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 4.0.3; GT-N7000 Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.72 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "4.0.3"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    short_name: CM
+    version: "29.0.1547.72"
+    engine: Blink
+    engine_version: ""
+  device:
+    type: phablet
+    brand: SA
+    model: GALAXY Note
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; el-gr; GT-N7000 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+  os:
+    name: Android
+    short_name: AND
+    version: "4.0.4"
+    platform: ""
+  client:
+    type: browser
+    name: Android Browser
+    short_name: AN
+    version: ""
+    engine: WebKit
+    engine_version: "534.30"
+  device:
+    type: phablet
+    brand: SA
+    model: GALAXY Note
+  os_family: Android
+  browser_family: Android Browser
+- 
+  user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; sk-sk; GT-N7000 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+  os:
+    name: Android
+    short_name: AND
+    version: "4.0.4"
+    platform: ""
+  client:
+    type: browser
+    name: Android Browser
+    short_name: AN
+    version: ""
+    engine: WebKit
+    engine_version: "534.30"
+  device:
+    type: phablet
+    brand: SA
+    model: GALAXY Note
+  os_family: Android
+  browser_family: Android Browser
+- 
+  user_agent: Mozilla/5.0 (Linux; U; Android 4.1.2; pl-pl; GT-N7000 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+  os:
+    name: Android
+    short_name: AND
+    version: "4.1.2"
+    platform: ""
+  client:
+    type: browser
+    name: Android Browser
+    short_name: AN
+    version: ""
+    engine: WebKit
+    engine_version: "534.30"
+  device:
+    type: phablet
+    brand: SA
+    model: GALAXY Note
+  os_family: Android
+  browser_family: Android Browser
+- 
+  user_agent: Mozilla/5.0 (Linux; U; Android 4.2.1; ru-ru; GT-N7000 Build/JOP40D; CyanogenMod-JellyBeer-v3.55) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+  os:
+    name: CyanogenMod
+    short_name: CYN
+    version: ""
+    platform: ""
+  client:
+    type: browser
+    name: Android Browser
+    short_name: AN
+    version: ""
+    engine: WebKit
+    engine_version: "534.30"
+  device:
+    type: phablet
+    brand: SA
+    model: GALAXY Note
+  os_family: Android
+  browser_family: Android Browser
+- 
   user_agent: Mozilla/5.0 (Linux; Android 4.3; zh-cn; SAMSUNG-SM-N9008V_TD Release/11.15.2013 Browser/AppleWebKit537.36 Build/JSS15J) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Mobile Safari/537.36
   os:
     name: Android
     short_name: AND
     version: "4.3"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Android Browser
     short_name: AN
-    version:
+    version: ""
     engine: WebKit
     engine_version: "537.36"
   device:
@@ -1062,27 +1673,24 @@
     name: Android
     short_name: AND
     version: "4.3"
-    platform:
+    platform: ""
   client:
-    type: browser
-    name: Android Browser
-    short_name: AN
-    version:
-    engine: WebKit
-    engine_version: "534.24"
+    type: mobile app
+    name: Baidu Box App
+    version: "5.1"
   device:
     type: phablet
     brand: SA
     model: GALAXY Note 3
   os_family: Android
-  browser_family: Android Browser
+  browser_family: Unknown
 - 
   user_agent: Mozilla/5.0 (Linux; U; Android 4.3; zh-cn; SM-N9008V Build/JSS15J) AppleWebKit/534.24 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.24 T5/2.0 baidubrowser/4.3.16.2 (Baidu; P1 4.3)
   os:
     name: Android
     short_name: AND
     version: "4.3"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Baidu Browser
@@ -1102,14 +1710,14 @@
     name: Android
     short_name: AND
     version: "4.3"
-    platform:
+    platform: ""
   client:
     type: browser
-    name: Chrome Mobile
-    short_name: CM
+    name: Chrome Webview
+    short_name: CV
     version: "28.0.1500.94"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: SA
@@ -1122,14 +1730,14 @@
     name: Android
     short_name: AND
     version: "4.3"
-    platform:
+    platform: ""
   client:
     type: browser
-    name: Chrome Mobile
-    short_name: CM
+    name: Chrome Webview
+    short_name: CV
     version: "28.0.1500.94"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: SA
@@ -1142,14 +1750,14 @@
     name: Android
     short_name: AND
     version: "4.3"
-    platform:
+    platform: ""
   client:
     type: browser
-    name: Chrome Mobile
-    short_name: CM
+    name: Chrome Webview
+    short_name: CV
     version: "28.0.1500.94"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: SA
@@ -1162,14 +1770,14 @@
     name: Android
     short_name: AND
     version: "4.3"
-    platform:
+    platform: ""
   client:
     type: browser
-    name: Chrome Mobile
-    short_name: CM
+    name: Chrome Webview
+    short_name: CV
     version: "28.0.1500.94"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: SA
@@ -1182,14 +1790,14 @@
     name: Android
     short_name: AND
     version: "4.3"
-    platform:
+    platform: ""
   client:
     type: browser
-    name: Chrome Mobile
-    short_name: CM
+    name: Chrome Webview
+    short_name: CV
     version: "28.0.1500.94"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: SA
@@ -1202,14 +1810,14 @@
     name: Android
     short_name: AND
     version: "4.3"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Chrome Mobile
     short_name: CM
     version: "32.0.1700.58"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: SA
@@ -1222,14 +1830,14 @@
     name: Android
     short_name: AND
     version: "4.3"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Chrome Mobile
     short_name: CM
     version: "32.0.1700.99"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: SA
@@ -1242,14 +1850,14 @@
     name: Android
     short_name: AND
     version: "4.3"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Chrome Mobile
     short_name: CM
     version: "33.0.1750.136"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: SA
@@ -1262,14 +1870,14 @@
     name: Android
     short_name: AND
     version: "4.3"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Chrome Mobile
     short_name: CM
     version: "33.0.1750.136"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: SA
@@ -1282,7 +1890,7 @@
     name: Android
     short_name: AND
     version: "4.3"
-    platform:
+    platform: ""
   client:
     type: browser
     name: QQ Browser
@@ -1302,7 +1910,7 @@
     name: Android
     short_name: AND
     version: "4.3"
-    platform:
+    platform: ""
   client:
     type: mobile app
     name: WeChat
@@ -1319,14 +1927,14 @@
     name: Android
     short_name: AND
     version: "4.4.2"
-    platform:
+    platform: ""
   client:
     type: browser
-    name: Chrome Mobile
-    short_name: CM
+    name: Chrome Webview
+    short_name: CV
     version: "28.0.1500.94"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: SA
@@ -1339,14 +1947,14 @@
     name: Android
     short_name: AND
     version: "4.4.2"
-    platform:
+    platform: ""
   client:
     type: browser
-    name: Chrome Mobile
-    short_name: CM
+    name: Chrome Webview
+    short_name: CV
     version: "28.0.1500.94"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: SA
@@ -1359,14 +1967,14 @@
     name: Android
     short_name: AND
     version: "4.4.2"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Chrome Mobile
     short_name: CM
     version: "33.0.1750.136"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: SA
@@ -1379,14 +1987,14 @@
     name: Android
     short_name: AND
     version: "4.4.2"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Chrome Mobile
     short_name: CM
     version: "33.0.1750.166"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: SA
@@ -1399,14 +2007,14 @@
     name: Android
     short_name: AND
     version: "4.4.2"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Chrome Mobile
     short_name: CM
     version: "33.0.1750.166"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: SA
@@ -1419,14 +2027,14 @@
     name: Android
     short_name: AND
     version: "4.4.2"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Chrome Mobile
     short_name: CM
     version: "34.0.1847.114"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: SA
@@ -1439,7 +2047,7 @@
     name: Android
     short_name: AND
     version: "4.4.2"
-    platform:
+    platform: ""
   client:
     type: mediaplayer
     name: Stagefright
@@ -1456,7 +2064,7 @@
     name: Android
     short_name: AND
     version: "4.3"
-    platform:
+    platform: ""
   client:
     type: browser
     name: UC Browser
@@ -1476,12 +2084,12 @@
     name: Android
     short_name: AND
     version: "4.3"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Android Browser
     short_name: AN
-    version:
+    version: ""
     engine: WebKit
     engine_version: "534.30"
   device:
@@ -1496,14 +2104,14 @@
     name: Android
     short_name: AND
     version: "4.3"
-    platform:
+    platform: ""
   client:
     type: browser
-    name: Chrome Mobile
-    short_name: CM
+    name: Chrome Webview
+    short_name: CV
     version: "28.0.1500.94"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: SA
@@ -1516,14 +2124,14 @@
     name: Android
     short_name: AND
     version: "4.3"
-    platform:
+    platform: ""
   client:
     type: browser
-    name: Chrome Mobile
-    short_name: CM
+    name: Chrome Webview
+    short_name: CV
     version: "28.0.1500.94"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: SA
@@ -1536,14 +2144,14 @@
     name: Android
     short_name: AND
     version: "4.3"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Chrome Mobile
     short_name: CM
     version: "34.0.1847.114"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: SA
@@ -1556,14 +2164,14 @@
     name: Android
     short_name: AND
     version: "4.3"
-    platform:
+    platform: ""
   client:
     type: browser
-    name: Chrome Mobile
-    short_name: CM
+    name: Chrome Webview
+    short_name: CV
     version: "28.0.1500.94"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: SA
@@ -1576,7 +2184,7 @@
     name: Android
     short_name: AND
     version: "4.0.4"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Chrome Mobile
@@ -1596,7 +2204,7 @@
     name: Android
     short_name: AND
     version: "4.4.4"
-    platform:
+    platform: ""
   client:
     type: mobile app
     name: Facebook
@@ -1613,14 +2221,14 @@
     name: Android
     short_name: AND
     version: "4.4.4"
-    platform:
+    platform: ""
   client:
     type: browser
-    name: Chrome Mobile
-    short_name: CM
+    name: Chrome Webview
+    short_name: CV
     version: "34.0.1847.76"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: SA
@@ -1633,14 +2241,14 @@
     name: Android
     short_name: AND
     version: "5.1.1"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Chrome Mobile
     short_name: CM
     version: "46.0.2490.76"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: SA
@@ -1653,7 +2261,7 @@
     name: Android
     short_name: AND
     version: "5.1.1"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Samsung Browser
@@ -1666,14 +2274,14 @@
     brand: SA
     model: GALAXY Note 5
   os_family: Android
-  browser_family: Unknown
+  browser_family: Chrome
 - 
   user_agent: Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-N920S Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.4 Chrome/38.0.2125.102 Mobile Safari/537.36
   os:
     name: Android
     short_name: AND
     version: "5.1.1"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Samsung Browser
@@ -1686,21 +2294,41 @@
     brand: SA
     model: GALAXY Note 5
   os_family: Android
-  browser_family: Unknown
+  browser_family: Chrome
 - 
   user_agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-N920C Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36
   os:
     name: Android
     short_name: AND
     version: "6.0.1"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Chrome Mobile
     short_name: CM
     version: "51.0.2704.81"
     engine: Blink
-    engine_version:
+    engine_version: ""
+  device:
+    type: phablet
+    brand: SA
+    model: GALAXY Note 5
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-N920K Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.91 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "6.0.1"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    short_name: CM
+    version: "69.0.3497.91"
+    engine: Blink
+    engine_version: ""
   device:
     type: phablet
     brand: SA
@@ -1713,7 +2341,7 @@
     name: Android
     short_name: AND
     version: "6.0.1"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Samsung Browser
@@ -1726,21 +2354,61 @@
     brand: SA
     model: GALAXY Note 5
   os_family: Android
-  browser_family: Unknown
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 7.0; SM-N920G Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36 Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "7.0"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Webview
+    short_name: CV
+    version: "63.0.3239.111"
+    engine: Blink
+    engine_version: ""
+  device:
+    type: phablet
+    brand: SA
+    model: GALAXY Note 5
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 7.0; SM-N920L Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.158 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "7.0"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    short_name: CM
+    version: "66.0.3359.158"
+    engine: Blink
+    engine_version: ""
+  device:
+    type: phablet
+    brand: SA
+    model: GALAXY Note 5
+  os_family: Android
+  browser_family: Chrome
 - 
   user_agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-N9208 Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
   os:
     name: Android
     short_name: AND
     version: "6.0.1"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Chrome Mobile
     short_name: CM
     version: "52.0.2743.98"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: SA
@@ -1753,18 +2421,378 @@
     name: Android
     short_name: AND
     version: "6.0.1"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Chrome Mobile
     short_name: CM
     version: "52.0.2743.98"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: SA
     model: GALAXY Note 7
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 9; SAMSUNG SM-N9700) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/10.0 Chrome/71.0.3578.99 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Samsung Browser
+    short_name: SB
+    version: "10.0"
+    engine: WebKit
+    engine_version: "537.36"
+  device:
+    type: phablet
+    brand: SA
+    model: GALAXY Note 10
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 9; SM-N970F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.111 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    short_name: CM
+    version: "76.0.3809.111"
+    engine: Blink
+    engine_version: ""
+  device:
+    type: phablet
+    brand: SA
+    model: GALAXY Note 10
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 9; SM-N970U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.111 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    short_name: CM
+    version: "76.0.3809.111"
+    engine: Blink
+    engine_version: ""
+  device:
+    type: phablet
+    brand: SA
+    model: GALAXY Note 10
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 9; SAMSUNG SM-N970U1) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/10.0 Chrome/71.0.3578.99 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Samsung Browser
+    short_name: SB
+    version: "10.0"
+    engine: WebKit
+    engine_version: "537.36"
+  device:
+    type: phablet
+    brand: SA
+    model: GALAXY Note 10
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 9; SM-N970X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.111 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    short_name: CM
+    version: "76.0.3809.111"
+    engine: Blink
+    engine_version: ""
+  device:
+    type: phablet
+    brand: SA
+    model: GALAXY Note 10
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 9; SM-N9750) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.111 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    short_name: CM
+    version: "76.0.3809.111"
+    engine: Blink
+    engine_version: ""
+  device:
+    type: phablet
+    brand: SA
+    model: GALAXY Note 10+
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 9; SM-N975F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.111 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    short_name: CM
+    version: "76.0.3809.111"
+    engine: Blink
+    engine_version: ""
+  device:
+    type: phablet
+    brand: SA
+    model: GALAXY Note 10+
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 9; SM-N975U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.111 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    short_name: CM
+    version: "76.0.3809.111"
+    engine: Blink
+    engine_version: ""
+  device:
+    type: phablet
+    brand: SA
+    model: GALAXY Note 10+
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 9; SM-N975U1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.111 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    short_name: CM
+    version: "76.0.3809.111"
+    engine: Blink
+    engine_version: ""
+  device:
+    type: phablet
+    brand: SA
+    model: GALAXY Note 10+
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 9; SM-N975W) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.111 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    short_name: CM
+    version: "76.0.3809.111"
+    engine: Blink
+    engine_version: ""
+  device:
+    type: phablet
+    brand: SA
+    model: GALAXY Note 10+
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 9; SAMSUNG SM-N975X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/10.0 Chrome/71.0.3578.99 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Samsung Browser
+    short_name: SB
+    version: "10.0"
+    engine: WebKit
+    engine_version: "537.36"
+  device:
+    type: phablet
+    brand: SA
+    model: GALAXY Note 10+
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 9; SAMSUNG SM-N975XU) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/10.0 Chrome/71.0.3578.99 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Samsung Browser
+    short_name: SB
+    version: "10.0"
+    engine: WebKit
+    engine_version: "537.36"
+  device:
+    type: phablet
+    brand: SA
+    model: GALAXY Note 10+
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 7.1.1; SCV34 Build/NMF26X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "7.1.1"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    short_name: CM
+    version: "59.0.3071.125"
+    engine: Blink
+    engine_version: ""
+  device:
+    type: phablet
+    brand: SA
+    model: GALAXY Note 7
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 7.1.1; SM-N950U1 Build/NMF26X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "7.1.1"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    short_name: CM
+    version: "61.0.3163.98"
+    engine: Blink
+    engine_version: ""
+  device:
+    type: phablet
+    brand: SA
+    model: GALAXY Note 8
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 7.1.1; SM-N950F Build/NMF26X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "7.1.1"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    short_name: CM
+    version: "62.0.3202.84"
+    engine: Blink
+    engine_version: ""
+  device:
+    type: phablet
+    brand: SA
+    model: GALAXY Note 8
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 7.1.1; SCV37 Build/NMF26X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "7.1.1"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    short_name: CM
+    version: "63.0.3239.111"
+    engine: Blink
+    engine_version: ""
+  device:
+    type: phablet
+    brand: SA
+    model: GALAXY Note 8
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 7.1.1; SAMSUNG SM-N950F Build/NMF26X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/6.2 Chrome/56.0.2924.87 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "7.1.1"
+    platform: ""
+  client:
+    type: browser
+    name: Samsung Browser
+    short_name: SB
+    version: "6.2"
+    engine: WebKit
+    engine_version: "537.36"
+  device:
+    type: phablet
+    brand: SA
+    model: GALAXY Note 8
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 8.1.0; SM-N960F Build/M1AJQ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.91 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "8.1.0"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    short_name: CM
+    version: "68.0.3440.91"
+    engine: Blink
+    engine_version: ""
+  device:
+    type: phablet
+    brand: SA
+    model: GALAXY Note 9
   os_family: Android
   browser_family: Chrome
 - 
@@ -1773,12 +2801,12 @@
     name: Android
     short_name: AND
     version: "4.1.1"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Android Browser
     short_name: AN
-    version:
+    version: ""
     engine: WebKit
     engine_version: "534.30"
   device:
@@ -1793,12 +2821,12 @@
     name: Android
     short_name: AND
     version: "4.1.1"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Android Browser
     short_name: AN
-    version:
+    version: ""
     engine: WebKit
     engine_version: "534.30"
   device:
@@ -1813,12 +2841,12 @@
     name: Android
     short_name: AND
     version: "4.3"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Android Browser
     short_name: AN
-    version:
+    version: ""
     engine: WebKit
     engine_version: "534.30"
   device:
@@ -1833,12 +2861,12 @@
     name: Android
     short_name: AND
     version: "4.3"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Android Browser
     short_name: AN
-    version:
+    version: ""
     engine: WebKit
     engine_version: "534.30"
   device:
@@ -1853,12 +2881,12 @@
     name: Android
     short_name: AND
     version: "4.3"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Android Browser
     short_name: AN
-    version:
+    version: ""
     engine: WebKit
     engine_version: "534.30"
   device:
@@ -1873,12 +2901,12 @@
     name: MocorDroid
     short_name: MCD
     version: "4.0.5"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Android Browser
     short_name: AN
-    version:
+    version: ""
     engine: WebKit
     engine_version: "533.1"
   device:
@@ -1893,12 +2921,12 @@
     name: Android
     short_name: AND
     version: "4.1.1"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Android Browser
     short_name: AN
-    version:
+    version: ""
     engine: WebKit
     engine_version: "534.30"
   device:
@@ -1913,14 +2941,14 @@
     name: Android
     short_name: AND
     version: "4.3"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Chrome Mobile
     short_name: CM
     version: "33.0.1750.136"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: SA
@@ -1933,34 +2961,31 @@
     name: Android
     short_name: AND
     version: "4.3"
-    platform:
+    platform: ""
   client:
-    type: browser
-    name: Android Browser
-    short_name: AN
-    version:
-    engine: WebKit
-    engine_version: "534.24"
+    type: mobile app
+    name: Baidu Box App
+    version: "6.4"
   device:
     type: phablet
     brand: SO
     model: Xperia T2 Ultra
   os_family: Android
-  browser_family: Android Browser
+  browser_family: Unknown
 - 
   user_agent: Mozilla/5.0 (Linux; Android 4.3; D5303 Build/19.0.1.A.0.207) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/537.36
   os:
     name: Android
     short_name: AND
     version: "4.3"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Chrome Mobile
     short_name: CM
     version: "31.0.1650.59"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: SO
@@ -1973,14 +2998,14 @@
     name: Android
     short_name: AND
     version: "4.3"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Chrome Mobile
     short_name: CM
     version: "36.0.1985.135"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: SO
@@ -1993,14 +3018,31 @@
     name: Android
     short_name: AND
     version: "4.4.3"
-    platform:
+    platform: ""
+  client:
+    type: mobile app
+    name: Baidu Box App
+    version: "5.0"
+  device:
+    type: phablet
+    brand: SO
+    model: Xperia T2 Ultra
+  os_family: Android
+  browser_family: Unknown
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 5.1.1; D5316 Build/19.4.A.0.182) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "5.1.1"
+    platform: ""
   client:
     type: browser
     name: Chrome Mobile
     short_name: CM
-    version: "33.0.0.0"
+    version: "63.0.3239.111"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: SO
@@ -2013,14 +3055,14 @@
     name: Android
     short_name: AND
     version: "4.4.3"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Chrome Mobile
     short_name: CM
     version: "36.0.1985.131"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: SO
@@ -2033,12 +3075,12 @@
     name: Android
     short_name: AND
     version: "4.2.2"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Android Browser
     short_name: AN
-    version:
+    version: ""
     engine: WebKit
     engine_version: "534.30"
   device:
@@ -2053,12 +3095,12 @@
     name: Android
     short_name: AND
     version: "4.2.2"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Android Browser
     short_name: AN
-    version:
+    version: ""
     engine: WebKit
     engine_version: "534.30"
   device:
@@ -2073,14 +3115,14 @@
     name: Android
     short_name: AND
     version: "4.2.2"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Chrome Mobile
     short_name: CM
     version: "34.0.1847.114"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: SO
@@ -2093,14 +3135,14 @@
     name: Android
     short_name: AND
     version: "4.3"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Chrome Mobile
     short_name: CM
     version: "34.0.1847.114"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: SO
@@ -2113,14 +3155,34 @@
     name: Android
     short_name: AND
     version: "4.4.2"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Chrome Mobile
     short_name: CM
     version: "34.0.1847.114"
     engine: Blink
-    engine_version:
+    engine_version: ""
+  device:
+    type: phablet
+    brand: SO
+    model: Xperia Z Ultra
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 4.4.2; SOL24 Build/14.3.C.0.300) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.137 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "4.4.2"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    short_name: CM
+    version: "64.0.3282.137"
+    engine: Blink
+    engine_version: ""
   device:
     type: phablet
     brand: SO
@@ -2133,7 +3195,7 @@
     name: Android
     short_name: AND
     version: "4.4.4"
-    platform:
+    platform: ""
   client:
     type: browser
     name: UC Browser
@@ -2148,19 +3210,39 @@
   os_family: Android
   browser_family: Unknown
 - 
+  user_agent: Mozilla/5.0 (Linux; Android 6.0; ZUR722M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.99 Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "6.0"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome
+    short_name: CH
+    version: "71.0.3578.99"
+    engine: Blink
+    engine_version: ""
+  device:
+    type: phablet
+    brand: SS
+    model: Z72 go
+  os_family: Android
+  browser_family: Chrome
+- 
   user_agent: Mozilla/5.0 (Linux; Android 4.2.1; Phablet 5,3 Q Build/JOP40D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.93 Mobile Safari/537.36
   os:
     name: Android
     short_name: AND
     version: "4.2.1"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Chrome Mobile
     short_name: CM
     version: "39.0.2171.93"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: T3
@@ -2173,14 +3255,14 @@
     name: Android
     short_name: AND
     version: "4.4.2"
-    platform:
+    platform: ""
   client:
     type: browser
-    name: Chrome Mobile
-    short_name: CM
+    name: Chrome Webview
+    short_name: CV
     version: "30.0.0.0"
     engine: Blink
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: T3
@@ -2193,12 +3275,12 @@
     name: Android
     short_name: AND
     version: "4.1.1"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Android Browser
     short_name: AN
-    version:
+    version: ""
     engine: WebKit
     engine_version: "534.30"
   device:
@@ -2208,172 +3290,12 @@
   os_family: Android
   browser_family: Android Browser
 - 
-  user_agent: Mozilla/5.0 (Linux; Android 4.4.2; HM NOTE 1LTE Build/KVT49L) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.141 Mobile Safari/537.36
-  os:
-    name: Android
-    short_name: AND
-    version: "4.4.2"
-    platform:
-  client:
-    type: browser
-    name: Chrome Mobile
-    short_name: CM
-    version: "35.0.1916.141"
-    engine: Blink
-    engine_version:
-  device:
-    type: phablet
-    brand: XI
-    model: HM Note 1LTE
-  os_family: Android
-  browser_family: Chrome
-- 
-  user_agent: Mozilla/5.0 (Linux; Android 4.4.4; HM NOTE 1LTEGLOBAL Build/KTU84Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.109 Mobile Safari/537.36
-  os:
-    name: Android
-    short_name: AND
-    version: "4.4.4"
-    platform:
-  client:
-    type: browser
-    name: Chrome Mobile
-    short_name: CM
-    version: "40.0.2214.109"
-    engine: Blink
-    engine_version:
-  device:
-    type: phablet
-    brand: XI
-    model: HM Note 1LTEGLOBAL
-  os_family: Android
-  browser_family: Chrome
-- 
-  user_agent: Mozilla/5.0 (Linux; Android 4.4.2; HM NOTE 1LTEW Build/KVT49L) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 MxBrowser/4.3.6.2000
-  os:
-    name: Android
-    short_name: AND
-    version: "4.4.2"
-    platform:
-  client:
-    type: browser
-    name: Maxthon
-    short_name: MX
-    version: "4.3.6.2000"
-    engine: WebKit
-    engine_version: "537.36"
-  device:
-    type: phablet
-    brand: XI
-    model: HM Note 1LTEW
-  os_family: Android
-  browser_family: Unknown
-- 
-  user_agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-tw; HM NOTE 1LTEW Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36 XiaoMi/MiuiBrowser/2.0.1
-  os:
-    name: Android
-    short_name: AND
-    version: "4.4.4"
-    platform:
-  client:
-    type: browser
-    name: MIUI Browser
-    short_name: MU
-    version: "2.0.1"
-    engine: WebKit
-    engine_version: "537.36"
-  device:
-    type: phablet
-    brand: XI
-    model: HM Note 1LTEW
-  os_family: Android
-  browser_family: Android Browser
-- 
-  user_agent: Mozilla/5.0 (Linux; U; Android 4.2.2; zh-cn; HM NOTE 1TD Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 XiaoMi/MiuiBrowser/1.0
-  os:
-    name: Android
-    short_name: AND
-    version: "4.2.2"
-    platform:
-  client:
-    type: browser
-    name: MIUI Browser
-    short_name: MU
-    version: "1.0"
-    engine: WebKit
-    engine_version: "534.30"
-  device:
-    type: phablet
-    brand: XI
-    model: HM Note 1TD
-  os_family: Android
-  browser_family: Android Browser
-- 
-  user_agent: Mozilla/5.0 (Linux; Android 4.2.2; HM NOTE 1W Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36
-  os:
-    name: Android
-    short_name: AND
-    version: "4.2.2"
-    platform:
-  client:
-    type: browser
-    name: Android Browser
-    short_name: AN
-    version:
-    engine: WebKit
-    engine_version: "537.36"
-  device:
-    type: phablet
-    brand: XI
-    model: HM Note 1W
-  os_family: Android
-  browser_family: Android Browser
-- 
-  user_agent: Mozilla/5.0 (Linux; U; Android 4.2.2; en-gb; HM NOTE 1W Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36 XiaoMi/MiuiBrowser/2.0.1
-  os:
-    name: Android
-    short_name: AND
-    version: "4.2.2"
-    platform:
-  client:
-    type: browser
-    name: MIUI Browser
-    short_name: MU
-    version: "2.0.1"
-    engine: WebKit
-    engine_version: "537.36"
-  device:
-    type: phablet
-    brand: XI
-    model: HM Note 1W
-  os_family: Android
-  browser_family: Android Browser
-- 
-  user_agent: Dalvik/1.6.0 (Linux; U; Android 4.4.2; HM NOTE 1W MIUI/V8.0.1.0.KHDMIDG)
-  os:
-    name: Android
-    short_name: AND
-    version: "4.4.2"
-    platform:
-  client:
-    type: browser
-    name: Android Browser
-    short_name: AN
-    version:
-    engine: WebKit
-    engine_version:
-  device:
-    type: phablet
-    brand: XI
-    model: HM Note 1W
-  os_family: Android
-  browser_family: Android Browser
-- 
   user_agent: Mozilla/5.0 (Linux; U; Android 4.4.4; en-us; MI NOTE LTE Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/39.0.0.0 Mobile Safari/537.36 XiaoMi/MiuiBrowser/2.1.1
   os:
     name: Android
     short_name: AND
     version: "4.4.4"
-    platform:
+    platform: ""
   client:
     type: browser
     name: MIUI Browser
@@ -2388,19 +3310,179 @@
   os_family: Android
   browser_family: Android Browser
 - 
+  user_agent: Mozilla/5.0 (Linux; Android 4.2.2; HM NOTE 1W Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "4.2.2"
+    platform: ""
+  client:
+    type: browser
+    name: Android Browser
+    short_name: AN
+    version: ""
+    engine: WebKit
+    engine_version: "537.36"
+  device:
+    type: phablet
+    brand: XI
+    model: Note
+  os_family: Android
+  browser_family: Android Browser
+- 
+  user_agent: Mozilla/5.0 (Linux; U; Android 4.2.2; zh-cn; HM NOTE 1TD Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 XiaoMi/MiuiBrowser/1.0
+  os:
+    name: Android
+    short_name: AND
+    version: "4.2.2"
+    platform: ""
+  client:
+    type: browser
+    name: MIUI Browser
+    short_name: MU
+    version: "1.0"
+    engine: WebKit
+    engine_version: "534.30"
+  device:
+    type: phablet
+    brand: XI
+    model: Note
+  os_family: Android
+  browser_family: Android Browser
+- 
+  user_agent: Mozilla/5.0 (Linux; U; Android 4.2.2; en-gb; HM NOTE 1W Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36 XiaoMi/MiuiBrowser/2.0.1
+  os:
+    name: Android
+    short_name: AND
+    version: "4.2.2"
+    platform: ""
+  client:
+    type: browser
+    name: MIUI Browser
+    short_name: MU
+    version: "2.0.1"
+    engine: WebKit
+    engine_version: "537.36"
+  device:
+    type: phablet
+    brand: XI
+    model: Note
+  os_family: Android
+  browser_family: Android Browser
+- 
+  user_agent: Dalvik/1.6.0 (Linux; U; Android 4.4.2; HM NOTE 1W MIUI/V8.0.1.0.KHDMIDG)
+  os:
+    name: Android
+    short_name: AND
+    version: "4.4.2"
+    platform: ""
+  client:
+    type: browser
+    name: Android Browser
+    short_name: AN
+    version: ""
+    engine: WebKit
+    engine_version: ""
+  device:
+    type: phablet
+    brand: XI
+    model: Note
+  os_family: Android
+  browser_family: Android Browser
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 4.4.2; HM NOTE 1LTE Build/KVT49L) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.141 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "4.4.2"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    short_name: CM
+    version: "35.0.1916.141"
+    engine: Blink
+    engine_version: ""
+  device:
+    type: phablet
+    brand: XI
+    model: Note
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 4.4.2; HM NOTE 1LTEW Build/KVT49L) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 MxBrowser/4.3.6.2000
+  os:
+    name: Android
+    short_name: AND
+    version: "4.4.2"
+    platform: ""
+  client:
+    type: browser
+    name: Maxthon
+    short_name: MX
+    version: "4.3.6.2000"
+    engine: WebKit
+    engine_version: "537.36"
+  device:
+    type: phablet
+    brand: XI
+    model: Note
+  os_family: Android
+  browser_family: Unknown
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 4.4.4; HM NOTE 1LTEGLOBAL Build/KTU84Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.109 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "4.4.4"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    short_name: CM
+    version: "40.0.2214.109"
+    engine: Blink
+    engine_version: ""
+  device:
+    type: phablet
+    brand: XI
+    model: Note
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-tw; HM NOTE 1LTEW Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36 XiaoMi/MiuiBrowser/2.0.1
+  os:
+    name: Android
+    short_name: AND
+    version: "4.4.4"
+    platform: ""
+  client:
+    type: browser
+    name: MIUI Browser
+    short_name: MU
+    version: "2.0.1"
+    engine: WebKit
+    engine_version: "537.36"
+  device:
+    type: phablet
+    brand: XI
+    model: Note
+  os_family: Android
+  browser_family: Android Browser
+- 
   user_agent: Dalvik/2.1.0 (Linux; U; Android 5.0.2; Redmi Note 2 MIUI/V8.0.1.0.0.LHMMIDG)
   os:
     name: Android
     short_name: AND
     version: "5.0.2"
-    platform:
+    platform: ""
   client:
     type: browser
     name: Android Browser
     short_name: AN
-    version:
+    version: ""
     engine: WebKit
-    engine_version:
+    engine_version: ""
   device:
     type: phablet
     brand: XI
@@ -2413,12 +3495,12 @@
     name: Android
     short_name: AND
     version: "5.0.2"
-    platform:
+    platform: ""
   client:
     type: browser
-    name: Android Browser
-    short_name: AN
-    version:
+    name: Sogou Mobile Browser
+    short_name: SO
+    version: "3.8.5"
     engine: WebKit
     engine_version: "534.30"
   device:
@@ -2426,24 +3508,318 @@
     brand: XI
     model: Redmi Note 2
   os_family: Android
-  browser_family: Android Browser
+  browser_family: Safari
 - 
   user_agent: Mozilla/5.0 (Linux; Android 5.0.2; Redmi Note 2 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/37.0.0.0 Mobile Safari/537.36 LieBaoFast/3.17.4
   os:
     name: Android
     short_name: AND
     version: "5.0.2"
-    platform:
+    platform: ""
   client:
     type: browser
-    name: Chrome Mobile
-    short_name: CM
-    version: "37.0.0.0"
-    engine: Blink
-    engine_version:
+    name: LieBaoFast
+    short_name: LF
+    version: "3.17.4"
+    engine: WebKit
+    engine_version: "537.36"
   device:
     type: phablet
     brand: XI
     model: Redmi Note 2
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 5.1; m2 note) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 baidubrowser/5.3.4.0 (Baidu; P1 4.3.1) tieba/6.7.2 BMW
+  os:
+    name: Android
+    short_name: AND
+    version: "5.1"
+    platform: ""
+  client:
+    type: mobile app
+    name: tieba
+    version: "6.7.2"
+  device:
+    type: phablet
+    brand: M1
+    model: M2 Note
+  os_family: Android
+  browser_family: Unknown
+- 
+  user_agent: Mozilla/5.0 (Linux; U; Android 4.1.2; zh-cn; GN810 Build/JZO54K) AppleWebKit/534.24 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.24 T5/2.0 baiduboxapp/6.6.1 (Baidu; P1 4.1.2)
+  os:
+    name: Android
+    short_name: AND
+    version: "4.1.2"
+    platform: ""
+  client:
+    type: mobile app
+    name: Baidu Box App
+    version: "6.6.1"
+  device:
+    type: phablet
+    brand: GI
+    model: GN810
+  os_family: Android
+  browser_family: Unknown
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 5.1; M571C Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.114 Mobile Safari/537.36 LieBaoFast/3.17.4
+  os:
+    name: Android
+    short_name: AND
+    version: "5.1"
+    platform: ""
+  client:
+    type: browser
+    name: LieBaoFast
+    short_name: LF
+    version: "3.17.4"
+    engine: WebKit
+    engine_version: "537.36"
+  device:
+    type: phablet
+    brand: M1
+    model: M2 Note
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-tw; HM NOTE 1LTEW Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36 XiaoMi/MiuiBrowser/2.0.1
+  os:
+    name: Android
+    short_name: AND
+    version: "4.4.4"
+    platform: ""
+  client:
+    type: browser
+    name: MIUI Browser
+    short_name: MU
+    version: "2.0.1"
+    engine: WebKit
+    engine_version: "537.36"
+  device:
+    type: phablet
+    brand: XI
+    model: Note
+  os_family: Android
+  browser_family: Android Browser
+- 
+  user_agent: Mozilla/5.0 (Linux; U; Android 5.0.2; zh-cn; Redmi Note 2 Build/LRX22G) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 SogouMSE,SogouMobileBrowser/3.8.5
+  os:
+    name: Android
+    short_name: AND
+    version: "5.0.2"
+    platform: ""
+  client:
+    type: browser
+    name: Sogou Mobile Browser
+    short_name: SO
+    version: "3.8.5"
+    engine: WebKit
+    engine_version: "534.30"
+  device:
+    type: phablet
+    brand: XI
+    model: Redmi Note 2
+  os_family: Android
+  browser_family: Safari
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 4.2.2; HM NOTE 1W Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "4.2.2"
+    platform: ""
+  client:
+    type: browser
+    name: Android Browser
+    short_name: AN
+    version: ""
+    engine: WebKit
+    engine_version: "537.36"
+  device:
+    type: phablet
+    brand: XI
+    model: Note
+  os_family: Android
+  browser_family: Android Browser
+- 
+  user_agent: Mozilla/5.0 (Linux; U; Android 4.2.2; zh-cn; HM NOTE 1TD Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 XiaoMi/MiuiBrowser/1.0
+  os:
+    name: Android
+    short_name: AND
+    version: "4.2.2"
+    platform: ""
+  client:
+    type: browser
+    name: MIUI Browser
+    short_name: MU
+    version: "1.0"
+    engine: WebKit
+    engine_version: "534.30"
+  device:
+    type: phablet
+    brand: XI
+    model: Note
+  os_family: Android
+  browser_family: Android Browser
+- 
+  user_agent: UCWEB/2.0(Linux; U; Opera Mini/7.1.32052/30.3697; en-US; HM NOTE 1S Build/KTU84P) U2/1.0.0 UCBrowser/10.5.2.582 Mobile
+  os:
+    name: GNU/Linux
+    short_name: LIN
+    version: ""
+    platform: ""
+  client:
+    type: browser
+    name: Opera Mini
+    short_name: OI
+    version: "7.1.32052"
+    engine: Presto
+    engine_version: ""
+  device:
+    type: phablet
+    brand: XI
+    model: Note
+  os_family: GNU/Linux
+  browser_family: Opera
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 4.4.2; HM NOTE 1LTE Build/KVT49L) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.141 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "4.4.2"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    short_name: CM
+    version: "35.0.1916.141"
+    engine: Blink
+    engine_version: ""
+  device:
+    type: phablet
+    brand: XI
+    model: Note
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 8.1.0; Redmi Note 6 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "8.1.0"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    short_name: CM
+    version: "70.0.3538.80"
+    engine: Blink
+    engine_version: ""
+  device:
+    type: phablet
+    brand: XI
+    model: Redmi Note 6
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; U; Android 8.1.0; de-de; Redmi Note 6 Pro Build/OPM1.171019.011) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/61.0.3163.128 Mobile Safari/537.36 XiaoMi/MiuiBrowser/10.2.5-g
+  os:
+    name: Android
+    short_name: AND
+    version: "8.1.0"
+    platform: ""
+  client:
+    type: browser
+    name: MIUI Browser
+    short_name: MU
+    version: "10.2.5"
+    engine: WebKit
+    engine_version: "537.36"
+  device:
+    type: phablet
+    brand: XI
+    model: Redmi Note 6
+  os_family: Android
+  browser_family: Android Browser
+- 
+  user_agent: Mozilla/5.0 (Linux; U; Android 8.1.0; en-US; Redmi Note 5 pro Build/OPM1.171019.011) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.9.2.1143 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "8.1.0"
+    platform: ""
+  client:
+    type: browser
+    name: UC Browser
+    short_name: UC
+    version: "12.9.2.1143"
+    engine: WebKit
+    engine_version: "537.36"
+  device:
+    type: phablet
+    brand: XI
+    model: Redmi Note 5
+  os_family: Android
+  browser_family: Unknown
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 7.1.1; Redmi Note 5 Pro Build/NGI77B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "7.1.1"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    short_name: CM
+    version: "61.0.3163.98"
+    engine: Blink
+    engine_version: ""
+  device:
+    type: phablet
+    brand: XI
+    model: Redmi Note 5
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi Note 5A Prime Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.91 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "7.1.2"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    short_name: CM
+    version: "68.0.3440.91"
+    engine: Blink
+    engine_version: ""
+  device:
+    type: phablet
+    brand: XI
+    model: Redmi Note 5A
+  os_family: Android
+  browser_family: Chrome
+- 
+  user_agent: Mozilla/5.0 (Linux; Android 9; SM-N976V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.89 Mobile Safari/537.36
+  os:
+    name: Android
+    short_name: AND
+    version: "9"
+    platform: ""
+  client:
+    type: browser
+    name: Chrome Mobile
+    short_name: CM
+    version: "76.0.3809.89"
+    engine: Blink
+    engine_version: ""
+  device:
+    type: phablet
+    brand: SA
+    model: GALAXY Note 10+
   os_family: Android
   browser_family: Chrome

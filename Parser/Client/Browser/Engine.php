@@ -38,7 +38,8 @@ class Engine extends ClientParserAbstract
         'Gecko',
         'KHTML',
         'NetFront',
-        'Edge'
+        'Edge',
+        'NetSurf'
     );
 
     /**
@@ -72,6 +73,6 @@ class Engine extends ClientParserAbstract
         }
 
         // This Exception should never be thrown. If so a defined browser name is missing in $availableEngines
-        throw new \Exception('Detected browser engine was not found in $availableEngines'); // @codeCoverageIgnore
+        throw new \Exception('Detected browser engine was not found in $availableEngines. Tried to parse user agent: '.$this->userAgent); // @codeCoverageIgnore
     }
 }
