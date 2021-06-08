@@ -1,85 +1,5 @@
 ---
-- 
-  user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; ru-ru; TS9708B Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
-  os:
-    name: Android
-    short_name: AND
-    version: "4.0.4"
-    platform: ""
-  client:
-    type: browser
-    name: Android Browser
-    short_name: AN
-    version: ""
-    engine: WebKit
-    engine_version: "534.30"
-  device:
-    type: ""
-    brand: ""
-    model: ""
-  os_family: Android
-  browser_family: Android Browser
-- 
-  user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; ru-ru; TS9708B Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
-  os:
-    name: Android
-    short_name: AND
-    version: "4.0.4"
-    platform: ""
-  client:
-    type: browser
-    name: Android Browser
-    short_name: AN
-    version: ""
-    engine: WebKit
-    engine_version: "534.30"
-  device:
-    type: ""
-    brand: ""
-    model: ""
-  os_family: Android
-  browser_family: Android Browser
-- 
-  user_agent: Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; AC0732C Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
-  os:
-    name: Android
-    short_name: AND
-    version: "4.2.2"
-    platform: ""
-  client:
-    type: browser
-    name: Android Browser
-    short_name: AN
-    version: ""
-    engine: WebKit
-    engine_version: "534.30"
-  device:
-    type: ""
-    brand: ""
-    model: ""
-  os_family: Android
-  browser_family: Android Browser
-- 
-  user_agent: Mozilla/5.0(Linux; U; Android 4.2.2; en-us; MT0812E Build/JDQ39) AppleWebKit/534.30 (KHTML, Like Gescko) Version/4.0 Mobile Safari/534.30
-  os:
-    name: Android
-    short_name: AND
-    version: "4.2.2"
-    platform: ""
-  client:
-    type: browser
-    name: Android Browser
-    short_name: AN
-    version: ""
-    engine: WebKit
-    engine_version: "534.30"
-  device:
-    type: ""
-    brand: ""
-    model: ""
-  os_family: Android
-  browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/3.01 (compatible;)
   os: [ ]
   client: null
@@ -89,13 +9,12 @@
     model: ""
   os_family: Unknown
   browser_family: Unknown
-- 
+-
   user_agent: amaya/9.51 libwww/5.4.0
   os: [ ]
   client:
     type: browser
     name: Amaya
-    short_name: AM
     version: "9.51"
     engine: ""
     engine_version: ""
@@ -105,7 +24,7 @@
     model: ""
   os_family: Unknown
   browser_family: Unknown
-- 
+-
   user_agent: BashPodder
   os: [ ]
   client:
@@ -118,13 +37,27 @@
     model: ""
   os_family: Unknown
   browser_family: Unknown
-- 
+-
+  user_agent: Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/80.0.3987.117 Mobile Safari/537.36
+  os: [ ]
+  client:
+    type: browser
+    name: Chrome Webview
+    version: "80.0.3987.117"
+    engine: Blink
+    engine_version: ""
+  device:
+    type: ""
+    brand: ""
+    model: ""
+  os_family: Unknown
+  browser_family: Chrome
+-
   user_agent: Dillo/0.8.5-i18n-misc
   os: [ ]
   client:
     type: browser
     name: Dillo
-    short_name: DI
     version: "0.8.5"
     engine: Dillo
     engine_version: "0.8.5"
@@ -134,7 +67,20 @@
     model: ""
   os_family: Unknown
   browser_family: Unknown
-- 
+-
+  user_agent: Google-HTTP-Java-Client/1.17.0-rc (gzip)
+  os: [ ]
+  client:
+    type: library
+    name: Google HTTP Java Client
+    version: "1.17.0-rc"
+  device:
+    type: ""
+    brand: ""
+    model: ""
+  os_family: Unknown
+  browser_family: Unknown
+-
   user_agent: gPodder/3.5.2 (+http://gpodder.org/)
   os: [ ]
   client:
@@ -147,13 +93,12 @@
     model: ""
   os_family: Unknown
   browser_family: Unknown
-- 
+-
   user_agent: HotJava/1.1.2 FCS
   os: [ ]
   client:
     type: browser
     name: HotJava
-    short_name: HJ
     version: "1.1.2"
     engine: ""
     engine_version: ""
@@ -163,13 +108,12 @@
     model: ""
   os_family: Unknown
   browser_family: Unknown
-- 
+-
   user_agent: Lynx/2.8.8pre.3 libwww-FM/2.14 SSL-MM/1.4.1 OpenSSL/1.0.1e
   os: [ ]
   client:
     type: browser
     name: Lynx
-    short_name: LX
     version: "2.8.8"
     engine: Text-based
     engine_version: ""
@@ -179,13 +123,12 @@
     model: ""
   os_family: Unknown
   browser_family: Unknown
-- 
+-
   user_agent: pcdc751/1.0 UP.Browser/6.2.3.2 (GUI) MMP/2.0
   os: [ ]
   client:
     type: browser
     name: Openwave Mobile Browser
-    short_name: OV
     version: "6.2.3.2"
     engine: ""
     engine_version: ""
@@ -195,13 +138,12 @@
     model: ""
   os_family: Unknown
   browser_family: Unknown
-- 
+-
   user_agent: 'r355[TF268435460205582333000000014065648021] UP.Browser/6.2.3.8 (GUI) MMP/2.0'
   os: [ ]
   client:
     type: browser
     name: Openwave Mobile Browser
-    short_name: OV
     version: "6.2.3.8"
     engine: ""
     engine_version: ""
@@ -211,13 +153,12 @@
     model: ""
   os_family: Unknown
   browser_family: Unknown
-- 
+-
   user_agent: Opera/9.80 (J2ME/MIDP; Opera Mini/5.0.22371/28.3782; U; en) Presto/2.8.119 Version/11.10
   os: [ ]
   client:
     type: browser
     name: Opera Mini
-    short_name: OI
     version: "5.0.22371"
     engine: Presto
     engine_version: "2.8.119"
@@ -227,7 +168,7 @@
     model: ""
   os_family: Unknown
   browser_family: Opera
-- 
+-
   user_agent: The Bat! 4.0.0.22
   os: [ ]
   client:
@@ -240,13 +181,12 @@
     model: ""
   os_family: Unknown
   browser_family: Unknown
-- 
+-
   user_agent: UCWEB8.4.0.150/28/352
   os: [ ]
   client:
     type: browser
     name: UC Browser
-    short_name: UC
     version: "8.4.0.150"
     engine: ""
     engine_version: ""
@@ -256,37 +196,33 @@
     model: ""
   os_family: Unknown
   browser_family: Unknown
-- 
+-
   user_agent: Mozilla/5.0 (Android; Linux armv7l; rv:10.0) Gecko/20120118 Firefox/10.0 Fennec/10.0
   os:
     name: Android
-    short_name: AND
     version: ""
     platform: ARM
   client:
     type: browser
     name: Fennec
-    short_name: FE
     version: "10.0"
     engine: Gecko
-    engine_version: ""
+    engine_version: "10.0"
   device:
     type: ""
     brand: ""
     model: ""
   os_family: Android
   browser_family: Firefox
-- 
+-
   user_agent: Opera/9.80 (Android; Opera Mini/7.5.33361/34.861; U; en) Presto/2.8.119 Version/11.10
   os:
     name: Android
-    short_name: AND
     version: ""
     platform: ""
   client:
     type: browser
     name: Opera Mini
-    short_name: OI
     version: "7.5.33361"
     engine: Presto
     engine_version: "2.8.119"
@@ -296,17 +232,15 @@
     model: ""
   os_family: Android
   browser_family: Opera
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 2.3; en-us; MID Build/GRH55) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
   os:
     name: Android
-    short_name: AND
     version: "2.3"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "533.1"
@@ -316,17 +250,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 2.3.6; en-us; e1109_v73_gq1003_rtp Build/GRK39F) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
   os:
     name: Android
-    short_name: AND
     version: "2.3.6"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "533.1"
@@ -336,17 +268,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 2.3.6; en-us; SP100 Build/GRK39F) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
   os:
     name: Android
-    short_name: AND
     version: "2.3.6"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "533.1"
@@ -356,17 +286,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: 'Mozilla/5.0 (Linux; U; Android 2.3.6; in-id; A7* Build/GRK39F) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
   os:
     name: Android
-    short_name: AND
     version: "2.3.6"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "533.1"
@@ -376,17 +304,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 2.3.6; mk-mk; move 2 Build/GRK39F) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
   os:
     name: Android
-    short_name: AND
     version: "2.3.6"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "533.1"
@@ -396,17 +322,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 2.3.6; zh-cn; BF9200 Build/GRK39F) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
   os:
     name: Android
-    short_name: AND
     version: "2.3.6"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "533.1"
@@ -416,17 +340,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 2.3.6; zh-cn; k6 Build/GRJ90) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
   os:
     name: Android
-    short_name: AND
     version: "2.3.6"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "533.1"
@@ -436,17 +358,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 2.3.6; zh-cn; MT917 Build/6.5.1_GC-146-DNRTD-9) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
   os:
     name: Android
-    short_name: AND
     version: "2.3.6"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "533.1"
@@ -456,17 +376,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 2.3.6; zh-cn; TV808 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
   os:
     name: Android
-    short_name: AND
     version: "2.3.6"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "533.1"
@@ -476,17 +394,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 2.3.7; en-au; T-Hub2 Build/TVA301TELBG3) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
   os:
     name: Android
-    short_name: AND
     version: "2.3.7"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "533.1"
@@ -496,17 +412,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 2.3.7; en-us; A19 Build/REL_2.3.12) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
   os:
     name: Android
-    short_name: AND
     version: "2.3.7"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "533.1"
@@ -516,17 +430,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 2.3.7; en-us; nine i7400 Build/REL_2.3.12) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
   os:
     name: Android
-    short_name: AND
     version: "2.3.7"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "533.1"
@@ -536,17 +448,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 2.3.7; en-us; Precedent Build/AreaRom Test) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
   os:
     name: Android
-    short_name: AND
     version: "2.3.7"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "533.1"
@@ -556,17 +466,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 2.3.7; fa-ir; X8 Build/GingerDX; GingerDX) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
   os:
     name: Android
-    short_name: AND
     version: "2.3.7"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "533.1"
@@ -576,17 +484,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 2.3.7; fr-fr; AZ210B Build/AZ210B_GB_01.06I) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
   os:
     name: Android
-    short_name: AND
     version: "2.3.7"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "533.1"
@@ -596,17 +502,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 2.3.7; ja-jp; IS12S Build/6.0.D.0.272) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
   os:
     name: Android
-    short_name: AND
     version: "2.3.7"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "533.1"
@@ -616,17 +520,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 2.3.7; zh-cn; 8180 Build/GWK74) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
   os:
     name: Android
-    short_name: AND
     version: "2.3.7"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "533.1"
@@ -636,17 +538,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 2.3.7; zh-cn; Blade Build/GRJ22; mumayi.com_hyurpg_love_01) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
   os:
     name: Android
-    short_name: AND
     version: "2.3.7"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "533.1"
@@ -656,17 +556,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 2.3.7; zh-cn; S800 Build/REL_2.3.7) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
   os:
     name: Android
-    short_name: AND
     version: "2.3.7"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "533.1"
@@ -676,17 +574,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.3; bg-bg; EPAD Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.3"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -696,17 +592,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.3; el-gr; R9 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.3"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -716,17 +610,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.3; en-us; 97FC Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.3"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -736,17 +628,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.3; en-us; AT107F Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.3"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -756,17 +646,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.3; en-us; Build/S5110-01-V2.1-20120801) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.3"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -776,17 +664,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.3; en-us; F-01D Build/V08R31A) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.3"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -796,17 +682,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.3; en-us; Full AOSP on Rk29sdk Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.3"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -816,17 +700,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.3; en-us; ICS Build/ICS.f08refem31.20120808) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.3"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -836,17 +718,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.3; en-us; MID Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.3"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -856,17 +736,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.3; en-us; T10A Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.3"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -876,17 +754,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.3; es-es; Build/ICS.f06ref848L.20120530) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.3"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -896,17 +772,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.3; es-es; Proton Lite Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.3"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -916,17 +790,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.3; fr-fr; MIDR477 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.3"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -936,17 +808,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.3; fr-fr; MIDR47B Build/eng.glwx.20121127.134615) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.3"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -956,37 +826,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
-  user_agent: Mozilla/5.0 (Linux; U; Android 4.0.3; id-id; IMO TAB X9 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
-  os:
-    name: Android
-    short_name: AND
-    version: "4.0.3"
-    platform: ""
-  client:
-    type: browser
-    name: Android Browser
-    short_name: AN
-    version: ""
-    engine: WebKit
-    engine_version: "534.30"
-  device:
-    type: ""
-    brand: ""
-    model: ""
-  os_family: Android
-  browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.3; id-id; SpeedUp S3 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.3"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -996,17 +844,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.3; id-id; Z5 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.3"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1016,17 +862,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.3; it-it; e1809c_v75_gq1008_9p017 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.3"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1036,17 +880,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.3; ro-ro; GV7777 Build/GV7777) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.3"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1056,17 +898,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.3; ru-ru; T-800 Build/ICS.g04w138188ref.20121030) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.3"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1076,17 +916,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.3; tr-tr; Broncho M7 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.3"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1096,17 +934,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.3; tr-tr; T736 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.3"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1116,17 +952,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.3; tr-tr; Vega Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.3"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1136,37 +970,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
-  user_agent: Mozilla/5.0 (Linux; U; Android 4.0.3; zh-cn; 3GNET U8 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
-  os:
-    name: Android
-    short_name: AND
-    version: "4.0.3"
-    platform: ""
-  client:
-    type: browser
-    name: Android Browser
-    short_name: AN
-    version: ""
-    engine: WebKit
-    engine_version: "534.30"
-  device:
-    type: ""
-    brand: ""
-    model: ""
-  os_family: Android
-  browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.3; zh-cn; I_7520 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.3"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1176,17 +988,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.3; zh-cn; T6 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.3"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1196,17 +1006,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.3; zh-tw; M701C Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.3"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1216,17 +1024,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.3; zh-tw; Playboy_PB-S3 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.3"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1236,17 +1042,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; ar-eg; A704J Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1256,17 +1060,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; ar-eg; KB901 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1276,17 +1078,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; ar-eg; TP-107A Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1296,17 +1096,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; en-au; A13-MID Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1316,17 +1114,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; en-ca; MID Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1336,17 +1132,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; en-ca; X10 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1356,17 +1150,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; en-eg; A13 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1376,17 +1168,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; en-eg; TWD_MID Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1396,17 +1186,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; en-gb; A088 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1416,17 +1204,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; en-gb; Softwinerf900 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1436,17 +1222,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; en-gb; X906 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1456,17 +1240,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; 201M Build/7.7.1Q-164_SMJ-143) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1476,17 +1258,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; ANDROID T3i Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1496,17 +1276,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; e1809c_v75_jbl_253 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1516,17 +1294,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; e1908_v77_mt6628_hjy1a6x_9p017 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1536,17 +1312,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; Expad Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1556,17 +1330,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; Gadmei ICS Build/E8HD-T364-1280x768) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1576,17 +1348,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; IdolPad 7+ Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1596,17 +1366,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; IS12M Build/6.7.5-50_MR1-11) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1616,17 +1384,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; J-Q8D Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1636,17 +1402,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; M006-Q Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1656,17 +1420,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; N10 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1676,17 +1438,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; N10 Build/IMM76I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1696,17 +1456,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; PC721 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1716,17 +1474,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; Spark Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1736,17 +1492,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; SX9701W Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1756,17 +1510,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; TAB900 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1776,17 +1528,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; TVPAD Slim K3409 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1796,17 +1546,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; UM-A13 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1816,17 +1564,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; V700D Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1836,17 +1582,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; X401 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1856,17 +1600,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; es-es; MANHATTAN Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1876,17 +1618,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; es-es; MW0710 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1896,17 +1636,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; es-es; Planet II v2 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1916,17 +1654,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; es-es; Proton Lite Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1936,17 +1672,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; es-es; SoftwinerEvb Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1956,17 +1690,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; es-es; TAB-1030 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1976,17 +1708,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; es-es; tablet Fnac 10 3G Build/1.1.11-1015 20130125-16:17) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -1996,17 +1726,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; es-us; f7 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -2016,17 +1744,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; fr-fr; 1FC Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -2036,17 +1762,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; fr-fr; E330 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -2056,17 +1780,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; fr-fr; MHU001D Build/MHU001D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -2076,17 +1798,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; it-it; I9220 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -2096,17 +1816,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; ja-jp; CAL21 Build/A1000091) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -2116,17 +1834,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; ja-jp; IS12M Build/6.7.5-50_MR1-11) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -2136,17 +1852,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; ja-jp; N70 DUAL CORE Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -2156,17 +1870,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; ja-jp; SHT21 Build/SC170) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -2176,17 +1888,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; ms-my; MID Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -2196,17 +1906,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; nl-nl; CRESTA.CTP888 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -2216,17 +1924,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; pl-pl; A13-MID Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -2236,17 +1942,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; pt-br; T02A Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -2256,17 +1960,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; pt-pt; DEM752NC Build/IMM76I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -2276,17 +1978,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; ro-ro; M1001 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -2296,17 +1996,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; ro-ro; M1005 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -2316,17 +2014,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; ru-ru; Advance TV Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -2336,37 +2032,33 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; ru-ru; DNS Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
   device:
-    type: ""
-    brand: ""
+    type: "smartphone"
+    brand: "DNS"
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; ru-ru; M83w Build/M83w-eng 4.0.4 IMM76D test-keys_OTA:MID_2.1.1.1_20120905.203550) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -2376,17 +2068,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; th-th; TP710 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -2396,17 +2086,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; tr-tr; AMPE Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -2416,17 +2104,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; tr-tr; TP73G Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -2436,17 +2122,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; vi-vn; VL-110 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -2456,17 +2140,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; zh-cn; 4S Build/GRK39F) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "533.1"
@@ -2476,17 +2158,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; zh-cn; LA-I Build/IMM76I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -2496,17 +2176,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; zh-cn; N710 Build/IMM76L) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -2516,17 +2194,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; zh-tw; DOUBLE IV Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -2536,17 +2212,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; zh-tw; ELIYA S1 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -2556,17 +2230,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; zh-tw; GPLUS N809 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -2576,17 +2248,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; zh-tw; PC-828 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.4"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -2596,57 +2266,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
-  user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; NABI2-NV7A Build/IMM76L)Maxthon AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
-  os:
-    name: Android
-    short_name: AND
-    version: "4.0.4"
-    platform: ""
-  client:
-    type: browser
-    name: Maxthon
-    short_name: MX
-    version: ""
-    engine: WebKit
-    engine_version: "534.30"
-  device:
-    type: ""
-    brand: ""
-    model: ""
-  os_family: Android
-  browser_family: Unknown
-- 
-  user_agent: 'Mozilla/5.0 (Linux; U; Android 4.0.4; fa-ir) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.10990AP Mobile'
-  os:
-    name: Android
-    short_name: AND
-    version: "4.0.4"
-    platform: ""
-  client:
-    type: browser
-    name: Puffin
-    short_name: PU
-    version: "2.10990"
-    engine: WebKit
-    engine_version: "534.35"
-  device:
-    type: ""
-    brand: ""
-    model: ""
-  os_family: Android
-  browser_family: Unknown
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.9; ru-ru; X710d Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.0.9"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -2656,17 +2284,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.1; zh-tw; 9300 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.1"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -2676,17 +2302,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.1.0; zh-cn; Coolgen E70 G Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.1.0"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -2696,17 +2320,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.1.1; en-gb; X817 Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.1.1"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -2716,17 +2338,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; e1908_v77_jbl1_9p017_6628 Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.1.1"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -2736,17 +2356,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; I9220 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.1.1"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -2756,17 +2374,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.1.1; es-es; I699 Build/GRK39F) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
   os:
     name: Android
-    short_name: AND
     version: "4.1.1"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "533.1"
@@ -2776,17 +2392,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.1.1; hu-hu; MonsterPad Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.1.1"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -2796,17 +2410,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.1.1; ja-jp; M704S Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.1.1"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -2816,17 +2428,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.1.1; pl-pl; Pro 10 dual core Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.1.1"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -2836,37 +2446,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
-  user_agent: Mozilla/5.0 (Linux; U; Android 4.1.1; ru-ru; RMD-1026 Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
-  os:
-    name: Android
-    short_name: AND
-    version: "4.1.1"
-    platform: ""
-  client:
-    type: browser
-    name: Android Browser
-    short_name: AN
-    version: ""
-    engine: WebKit
-    engine_version: "534.30"
-  device:
-    type: ""
-    brand: ""
-    model: ""
-  os_family: Android
-  browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.1.1; zh-cn; Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.1.1"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -2876,17 +2464,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.1.1; zh-cn; ifive MX Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.1.1"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -2896,17 +2482,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.1.1; zh-cn; N12GJ-QZ Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.1.1"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -2916,17 +2500,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.1.1; zh-tw; HD3 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: Android
-    short_name: AND
     version: "4.1.1"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -2936,11 +2518,28 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
+  user_agent: Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; Alcor Zest Q813IS Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
+  os:
+    name: Android
+    version: "4.2.2"
+    platform: ""
+  client:
+    type: browser
+    name: Android Browser
+    version: ""
+    engine: WebKit
+    engine_version: "534.30"
+  device:
+    type: ""
+    brand: ""
+    model: ""
+  os_family: Android
+  browser_family: Android Browser
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.4.2; zh-cn; X5 R1 Build/KOT49H) AppleWebKit/534.24 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.24 T5/2.0 baiduboxapp/6.7 (Baidu; P1 4.4.2)
   os:
     name: Android
-    short_name: AND
     version: "4.4.2"
     platform: ""
   client:
@@ -2953,11 +2552,28 @@
     model: ""
   os_family: Android
   browser_family: Unknown
-- 
+-
+  user_agent: 'Dalvik/2.1.0 (Linux## U## Android 7.1.1## Chromebook 14 (CB3-431) Build/R63-10032.86.0)'
+  os:
+    name: Android
+    version: "7.1.1"
+    platform: ""
+  client:
+    type: browser
+    name: Android Browser
+    version: ""
+    engine: WebKit
+    engine_version: ""
+  device:
+    type: desktop
+    brand: Acer
+    model: Chromebook 14
+  os_family: Android
+  browser_family: Android Browser
+-
   user_agent: bPod
   os:
     name: BlackBerry OS
-    short_name: BLB
     version: ""
     platform: ""
   client:
@@ -2970,17 +2586,15 @@
     model: ""
   os_family: BlackBerry
   browser_family: Unknown
-- 
+-
   user_agent: 'BREW-Applet/0x20068888 (BREW/3.1.5.20; DeviceId: 90086; Lang: zhcn) ucweb-squid'
   os:
     name: Brew
-    short_name: BMP
     version: "3.1.5.20"
     platform: ""
   client:
     type: browser
     name: UC Browser
-    short_name: UC
     version: ""
     engine: ""
     engine_version: ""
@@ -2990,17 +2604,15 @@
     model: ""
   os_family: Brew
   browser_family: Unknown
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; Incredible 2 Build/JRO03H; CyanogenMod-PARANOIDANDROID) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: CyanogenMod
-    short_name: CYN
     version: ""
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -3010,17 +2622,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 2.3.7; en-us; LS670 Build/GWK74; CyanogenMod-7.2.0) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
   os:
     name: CyanogenMod
-    short_name: CYN
     version: "7.2.0"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "533.1"
@@ -3030,17 +2640,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 2.3.7; tr-tr; Mokee Os Build/FRG83; CyanogenMod-7.2.0) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
   os:
     name: CyanogenMod
-    short_name: CYN
     version: "7.2.0"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "533.1"
@@ -3050,17 +2658,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; Blade Build/IMM76D; CyanogenMod-9) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: CyanogenMod
-    short_name: CYN
     version: "9"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -3070,17 +2676,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; es-es; Skate Build/IML74K; CyanogenMod-9) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: CyanogenMod
-    short_name: CYN
     version: "9"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -3090,17 +2694,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 4.0.4; fa-ir; Liberty Build/IMM76L; CyanogenMod-9.0.0) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
   os:
     name: CyanogenMod
-    short_name: CYN
     version: "9.0.0"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "534.30"
@@ -3110,17 +2712,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: 'Mozilla/5.0 (X11; U; Linux x86_64; fa-ir) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.10977AP'
   os:
     name: GNU/Linux
-    short_name: LIN
     version: ""
     platform: x64
   client:
     type: browser
     name: Puffin
-    short_name: PU
     version: "2.10977"
     engine: WebKit
     engine_version: "534.35"
@@ -3130,17 +2730,15 @@
     model: ""
   os_family: GNU/Linux
   browser_family: Unknown
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Android 2.3.6; zh-cn; SPHS on Hsdroid Build/MocorDroid2.3.5) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
   os:
     name: MocorDroid
-    short_name: MCD
     version: "2.3.5"
     platform: ""
   client:
     type: browser
     name: Android Browser
-    short_name: AN
     version: ""
     engine: WebKit
     engine_version: "533.1"
@@ -3150,17 +2748,15 @@
     model: ""
   os_family: Android
   browser_family: Android Browser
-- 
+-
   user_agent: 'Mozilla/1.10 [en] (Compatible; RISC OS 3.70; Oregano 1.10)'
   os:
     name: RISC OS
-    short_name: ROS
     version: "3.70"
     platform: ""
   client:
     type: browser
     name: Oregano
-    short_name: OR
     version: "1.10"
     engine: ""
     engine_version: ""
@@ -3170,11 +2766,10 @@
     model: ""
   os_family: RISC OS
   browser_family: Unknown
-- 
+-
   user_agent: 'Mozilla/4.01 (Compatible; Acorn Browse 1.25 [23-Oct-97] AW  97; RISC OS 4.39) Acorn-HTTP/0.84'
   os:
     name: RISC OS
-    short_name: ROS
     version: "4.39"
     platform: ""
   client: null
@@ -3184,17 +2779,15 @@
     model: ""
   os_family: RISC OS
   browser_family: Unknown
-- 
+-
   user_agent: Mozilla/3.04 (compatible; NCBrowser/2.35; ANTFresco/2.17; RISC OS-NC 5.13 Laz1UK1309)
   os:
     name: RISC OS
-    short_name: ROS
     version: "5.13"
     platform: ""
   client:
     type: browser
     name: ANT Fresco
-    short_name: AF
     version: "2.17"
     engine: ""
     engine_version: ""
@@ -3204,17 +2797,15 @@
     model: ""
   os_family: RISC OS
   browser_family: Unknown
-- 
+-
   user_agent: Mozilla/5.0 (Linux; U; Tizen/1.0 like Android; en-us; AppleWebKit/534.46 (KHTML, like Gecko) Tizen Browser/1.0 Mobile
   os:
     name: Tizen
-    short_name: TIZ
     version: "1.0"
     platform: ""
   client:
     type: browser
     name: Tizen Browser
-    short_name: TZ
     version: "1.0"
     engine: WebKit
     engine_version: "534.46"
@@ -3224,17 +2815,15 @@
     model: ""
   os_family: Other Mobile
   browser_family: Unknown
-- 
+-
   user_agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows NT Windows CE)
   os:
     name: Windows CE
-    short_name: WCE
     version: ""
     platform: ""
   client:
     type: browser
     name: Internet Explorer
-    short_name: IE
     version: "4.01"
     engine: Trident
     engine_version: ""
@@ -3244,17 +2833,15 @@
     model: ""
   os_family: Windows Mobile
   browser_family: Internet Explorer
-- 
+-
   user_agent: Opera/9.80 (Windows Mobile; WCE; Opera Mobi/WMD-50433; U; en) Presto/2.4.13 Version/10.00
   os:
     name: Windows Mobile
-    short_name: WMO
     version: ""
     platform: ""
   client:
     type: browser
     name: Opera Mobile
-    short_name: OM
     version: "10.00"
     engine: Presto
     engine_version: "2.4.13"
@@ -3264,17 +2851,15 @@
     model: ""
   os_family: Windows Mobile
   browser_family: Opera
-- 
+-
   user_agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; XBLWP7; ZuneWP7)
   os:
     name: Windows Phone
-    short_name: WPH
     version: ""
     platform: ""
   client:
     type: browser
     name: IE Mobile
-    short_name: IM
     version: "9.0"
     engine: Trident
     engine_version: "5.0"
@@ -3284,11 +2869,10 @@
     model: ""
   os_family: Windows Mobile
   browser_family: Internet Explorer
-- 
+-
   user_agent: SubStream/0.7 CFNetwork/485.12.30 Darwin/10.4.0
   os:
     name: iOS
-    short_name: IOS
     version: "4.2"
     platform: ""
   client:
@@ -3297,84 +2881,92 @@
     version: "0.7"
   device:
     type: ""
-    brand: AP
+    brand: Apple
     model: ""
   os_family: iOS
   browser_family: Unknown
-- 
-  user_agent: Mozilla/5.0 (Linux; Android 4.4.2; Florida Build/KVT49L) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36
+-
+  user_agent: Mozilla/5.0 (Linux; diordnA 9) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Focus/8.0.9 Chrome/85.0.4183.127 eliboM Safari/537.36
   os:
     name: Android
-    short_name: AND
-    version: "4.4.2"
+    version: "9"
     platform: ""
   client:
     type: browser
-    name: Chrome Webview
-    short_name: CV
-    version: "30.0.0.0"
-    engine: Blink
-    engine_version: ""
-  device:
-    type: ""
-    brand: ""
-    model: ""
-  os_family: Android
-  browser_family: Chrome
-- 
-  user_agent: Mozilla/5.0 (Linux; U; Android 4.4.4; en-us; 2014817 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36 XiaoMi/MiuiBrowser/2.0.1
-  os:
-    name: Android
-    short_name: AND
-    version: "4.4.4"
-    platform: ""
-  client:
-    type: browser
-    name: MIUI Browser
-    short_name: MU
-    version: "2.0.1"
+    name: Firefox Focus
+    version: 8.0.9
     engine: WebKit
     engine_version: "537.36"
   device:
-    type: ""
-    brand: ""
-    model: ""
-  os_family: Android
-  browser_family: Android Browser
-- 
-  user_agent: 'Mozilla/5.0 (Linux; Android 5.1.1; Z716BL Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/42.0.2311.137 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/99.0.0.26.69;]'
-  os:
-    name: Android
-    short_name: AND
-    version: "5.1.1"
-    platform: ""
-  client:
-    type: mobile app
-    name: Facebook
-    version: "99.0.0.26.69"
-  device:
-    type: ""
+    type: smartphone
     brand: ""
     model: ""
   os_family: Android
   browser_family: Unknown
-- 
-  user_agent: Mozilla/5.0 (Linux; U; Android 4.0.3; en-gb; 3Q_ER71B Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+-
+  user_agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.116 Safari/537.36 Edg/77.07.4.5059
   os:
-    name: Android
-    short_name: AND
-    version: "4.0.3"
+    name: GNU/Linux
+    version: ""
+    platform: x64
+  client:
+    type: browser
+    name: Microsoft Edge
+    version: 77.07.4.5059
+    engine: Blink
+    engine_version: ""
+  device:
+    type: desktop
+    brand: ""
+    model: ""
+  os_family: GNU/Linux
+  browser_family: Internet Explorer
+-
+  user_agent: Mozilla/5.0 (Linux; Tizen 2.3) AppleWebKit/538.1 (KHTML, like Gecko)Version/2.3 TV Safari/538.1
+  os:
+    name: Tizen
+    version: "2.3"
     platform: ""
   client:
     type: browser
-    name: Android Browser
-    short_name: AN
-    version: ""
+    name: Safari
+    version: "2.3"
     engine: WebKit
-    engine_version: "534.30"
+    engine_version: "538.1"
+  device:
+    type: tv
+    brand: ""
+    model: ""
+  os_family: Other Mobile
+  browser_family: Safari
+-
+  user_agent: GRequests/0.10
+  os: [ ]
+  client:
+    type: library
+    name: GRequests
+    version: "0.10"
   device:
     type: ""
     brand: ""
     model: ""
+  os_family: Unknown
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; U; Android 4.4.4; Speed Tablet 13.3 Quad Core Build/KTU84Q; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Safari/537.36 OPR/24.0.2254.115213
+  os:
+    name: Android
+    version: 4.4.4
+    platform: ""
+  client:
+    type: browser
+    name: Opera
+    version: 24.0.2254.115213
+    engine: Blink
+    engine_version: ""
+  device:
+    type: tablet
+    brand: ""
+    model: ""
   os_family: Android
-  browser_family: Android Browser
+  browser_family: Opera
