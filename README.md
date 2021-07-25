@@ -243,7 +243,7 @@ There are already a few ports of this tool to other languages:
 
 The lists below are auto generated and updated from time to time. Some of them might not be complete.
 
-*Last update: 2021/06/06*
+*Last update: 2021/07/25*
 
 ### List of detected operating systems:
 
@@ -271,7 +271,7 @@ Audacious, Banshee, Boxee, Clementine, Deezer, FlyCast, Foobar2000, Google Podca
 
 ### List of detected PIMs (personal information manager):
 
-Airmail, Barca, BathyScaphe, DAVdroid, JaneView, Live5ch, Lotus Notes, MailBar, Microsoft Outlook, Outlook Express, Postbox, SeaMonkey, The Bat!, Thunderbird
+Airmail, Barca, BathyScaphe, DAVdroid, JaneView, Live5ch, Lotus Notes, Mail, MailBar, Microsoft Outlook, Outlook Express, Postbox, SeaMonkey, The Bat!, Thunderbird
 
 ### List of detected feed readers:
 
