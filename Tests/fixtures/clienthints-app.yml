@@ -1,305 +1,5 @@
 ---
 -
-  user_agent: Mozilla/5.0 (Linux; U; Android 8.1.0; ru-ru; ZC554KL Build/OPM1.171019.011) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/61.0.3163.128 Mobile Safari/537.36 XiaoMi/Mint Browser/3.9.1
-  headers:
-    X-Requested-With: com.mi.globalbrowser.mini
-  os:
-    name: Android
-    version: 8.1.0
-    platform: ''
-  client:
-    type: browser
-    name: Mint Browser
-    version: 3.9.1
-    engine: WebKit
-    engine_version: '537.36'
-  device:
-    type: smartphone
-    brand: Asus
-    model: ZenFone 4 Max
-  os_family: Android
-  browser_family: Chrome
--
-  user_agent: Mozilla/5.0 (Linux; Android 8.1.0; ZC554KL Build/OPM1.171019.011;) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/98.0.4758.101 Mobile Safari/537.36
-  headers:
-    X-Requested-With: mark.via.gp
-  os:
-    name: Android
-    version: "8.1.0"
-    platform: ""
-  client:
-    type: browser
-    name: Via
-    version: ""
-    engine: Blink
-    engine_version: "98.0.4758.101"
-  device:
-    type: smartphone
-    brand: Asus
-    model: ZenFone 4 Max
-  os_family: Android
-  browser_family: Chrome
--
-  user_agent: Mozilla/5.0 (Linux; Android 8.1.0; Nomi_C080034 Build/O11019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36
-  headers:
-    X-Requested-With: com.pure.mini.browser
-  os:
-    name: Android
-    version: "8.1.0"
-    platform: ""
-  client:
-    type: browser
-    name: Pure Mini Browser
-    version: ""
-    engine: Blink
-    engine_version: "68.0.3440.91"
-  device:
-    type: tablet
-    brand: Nomi
-    model: Libra 4 LTE
-  os_family: Android
-  browser_family: Chrome
--
-  user_agent: Mozilla/5.0 (Linux; Android 10; SM-A115F Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/92.0.4515.115 Mobile Safari/537.36
-  headers:
-    X-Requested-With: acr.browser.raisebrowserfull
-  os:
-    name: Android
-    version: "10"
-    platform: ""
-  client:
-    type: browser
-    name: Raise Fast Browser
-    version: ""
-    engine: Blink
-    engine_version: "92.0.4515.115"
-  device:
-    type: smartphone
-    brand: Samsung
-    model: Galaxy A11
-  os_family: Android
-  browser_family: Chrome
--
-  user_agent: Mozilla/5.0 (Linux; Android 7.0) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Focus/1.0 Chrome/59.0.3029.83 Mobile Safari/537.36
-  headers:
-    X-Requested-With: com.Fast.BrowserUc.lite
-  os:
-    name: Android
-    version: "7.0"
-    platform: ""
-  client:
-    type: browser
-    name: Fast Browser UC Lite
-    version: ""
-    engine: Blink
-    engine_version: "59.0.3029.83"
-  device:
-    type: smartphone
-    brand: ""
-    model: ""
-  os_family: Android
-  browser_family: Chrome
--
-  user_agent: Mozilla/5.0 (Linux; Android 10; DRA-LX9 Build/HUAWEIDRA-LX9; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.93 Mobile Safari/537.36
-  headers:
-    X-Requested-With: acr.browser.barebones
-  os:
-    name: Android
-    version: "10"
-    platform: ""
-  client:
-    type: browser
-    name: Lightning Browser
-    version: ""
-    engine: Blink
-    engine_version: "88.0.4324.93"
-  device:
-    type: smartphone
-    brand: Huawei
-    model: Y5p
-  os_family: Android
-  browser_family: Chrome
--
-  user_agent: Mozilla/5.0 (Linux; Android 10; CPH2179 Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/83.0.4103.106 Mobile Safari/537.36
-  headers:
-    X-Requested-With: anar.app.darkweb
-  os:
-    name: Android
-    version: "10"
-    platform: ""
-  client:
-    type: browser
-    name: Dark Web Browser
-    version: ""
-    engine: Blink
-    engine_version: "83.0.4103.106"
-  device:
-    type: smartphone
-    brand: OPPO
-    model: A15s
-  os_family: Android
-  browser_family: Chrome
--
-  user_agent: Mozilla/5.0 (Linux; Android 10; Infinix X682B Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/96.0.4664.104 Mobile Safari/537.36
-  headers:
-    X-Requested-With: com.kiwibrowser.browser
-  os:
-    name: Android
-    version: "10"
-    platform: ""
-  client:
-    type: browser
-    name: Kiwi
-    version: ""
-    engine: Blink
-    engine_version: "96.0.4664.104"
-  device:
-    type: smartphone
-    brand: Infinix
-    model: Hot 10
-  os_family: Android
-  browser_family: Chrome
--
-  user_agent: Mozilla/5.0 (Linux; Android 10; SM-A013F Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/98.0.4758.101 Mobile Safari/537.36
-  headers:
-    X-Requested-With: com.cloudmosa.puffinFree
-  os:
-    name: Android
-    version: "10"
-    platform: ""
-  client:
-    type: browser
-    name: Puffin Web Browser
-    version: ""
-    engine: Blink
-    engine_version: "98.0.4758.101"
-  device:
-    type: smartphone
-    brand: Samsung
-    model: Galaxy A01 Core
-  os_family: Android
-  browser_family: Chrome
--
-  user_agent: Mozilla/5.0 (Linux; Android 7.0; Mobicel_R1 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.116 Mobile Safari/537.36
-  headers:
-    X-Requested-With: com.aloha.browser
-  os:
-    name: Android
-    version: "7.0"
-    platform: ""
-  client:
-    type: browser
-    name: Aloha Browser
-    version: ""
-    engine: Blink
-    engine_version: "79.0.3945.116"
-  device:
-    type: smartphone
-    brand: Mobicel
-    model: R1
-  os_family: Android
-  browser_family: Chrome
--
-  user_agent: Mozilla/5.0 (Linux; Android 11; Redmi Note 9S Build/RKQ1.200826.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/96.0.4664.104 Mobile Safari/537.36
-  headers:
-    X-Requested-With: com.cake.browser
-  os:
-    name: Android
-    version: "11"
-    platform: ""
-  client:
-    type: browser
-    name: Cake Browser
-    version: ""
-    engine: Blink
-    engine_version: "96.0.4664.104"
-  device:
-    type: phablet
-    brand: Xiaomi
-    model: Redmi Note 9S
-  os_family: Android
-  browser_family: Chrome
--
-  user_agent: Mozilla/5.0 (Linux; U; Android 8.1.0; en-US; Lenovo L18021 Build/O11019) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 UCBrowser/11.4.8.1012 Mobile Safari/537.36
-  headers:
-    X-Requested-With: com.UCMobile.intl
-  os:
-    name: Android
-    version: 8.1.0
-    platform: ''
-  client:
-    type: browser
-    name: UC Browser
-    version: '11.4.8.1012'
-    engine: WebKit
-    engine_version: '537.36'
-  device:
-    type: smartphone
-    brand: Lenovo
-    model: A3
-  os_family: Android
-  browser_family: Unknown
--
-  user_agent: Mozilla/5.0 (Linux; Android 9; ZTE Blade V10 Vita Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/96.0.4664.45 Mobile Safari/537.36
-  headers:
-    X-Requested-With: com.UCMobile.intl
-  os:
-    name: Android
-    version: '9'
-    platform: ''
-  client:
-    type: browser
-    name: UC Browser
-    version: ''
-    engine: Blink
-    engine_version: "96.0.4664.45"
-  device:
-    type: smartphone
-    brand: ZTE
-    model: Blade V10 Vita
-  os_family: Android
-  browser_family: Chrome
--
-  user_agent: Mozilla/5.0 (Linux; Android 8.1.0; Neffos_C9A Build/O11019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/97.0.4692.98 Mobile Safari/537.36
-  headers:
-    X-Requested-With: com.iebrowser.fast
-  os:
-    name: Android
-    version: 8.1.0
-    platform: ''
-  client:
-    type: browser
-    name: IE Browser Fast
-    version: ''
-    engine: Blink
-    engine_version: "97.0.4692.98"
-  device:
-    type: smartphone
-    brand: Neffos
-    model: C9A
-  os_family: Android
-  browser_family: Chrome
--
-  user_agent: Mozilla/5.0 (Linux; Android 11; M2004J19C Build/RP1A.200720.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/92.0.4515.131 Mobile Safari/537.36
-  headers:
-    X-Requested-With: com.iebrowser.fast
-  os:
-    name: Android
-    version: '11'
-    platform: ''
-  client:
-    type: browser
-    name: IE Browser Fast
-    version: ''
-    engine: Blink
-    engine_version: "92.0.4515.131"
-  device:
-    type: smartphone
-    brand: Xiaomi
-    model: Redmi 9
-  os_family: Android
-  browser_family: Chrome
--
   user_agent: Mozilla/5.0 (Linux; Android 11; Pixel 3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Mobile Safari/537.36
   headers:
     X-Requested-With: org.telegram.messenger
@@ -408,206 +108,6 @@
   os_family: Android
   browser_family: Unknown
 -
-  user_agent: Mozilla/5.0 (Linux; Android 5.1.1; 2014811 Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 Mobile Safari/537.36
-  headers:
-    X-Requested-With: acr.browser.linxy
-  os:
-    name: Android
-    version: 5.1.1
-    platform: ""
-  client:
-    type: browser
-    name: Vegas Browser
-    version: ""
-    engine: Blink
-    engine_version: "57.0.2987.132"
-  device:
-    type: smartphone
-    brand: Xiaomi
-    model: Hongmi 2 4G
-  os_family: Android
-  browser_family: Chrome
--
-  user_agent: Mozilla/5.0 (Linux; Android 10; JSN-L21 Build/HONORJSN-L21; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/97.0.4692.98 Mobile Safari/537.36
-  headers:
-    X-Requested-With: com.oh.bro
-  os:
-    name: Android
-    version: "10"
-    platform: ""
-  client:
-    type: browser
-    name: OH Browser
-    version: ""
-    engine: Blink
-    engine_version: "97.0.4692.98"
-  device:
-    type: smartphone
-    brand: Huawei
-    model: Honor 8X
-  os_family: Android
-  browser_family: Chrome
--
-  user_agent: Mozilla/5.0 (Linux; Android 9; Android_Device) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/97.0.4692.87 Safari/537.36
-  headers:
-    X-Requested-With: com.oh.bro
-  os:
-    name: Android
-    version: "9"
-    platform: ""
-  client:
-    type: browser
-    name: OH Browser
-    version: ""
-    engine: Blink
-    engine_version: "97.0.4692.87"
-  device:
-    type: tablet
-    brand: ""
-    model: ""
-  os_family: Android
-  browser_family: Chrome
--
-  user_agent: Mozilla/5.0 (Linux; Android 11) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/97.0.4692.98 Mobile DuckDuckGo/5 Safari/537.36
-  headers:
-    X-Requested-With: com.duckduckgo.mobile.android
-  os:
-    name: Android
-    version: "11"
-    platform: ""
-  client:
-    type: browser
-    name: DuckDuckGo Privacy Browser
-    version: "5"
-    engine: Blink
-    engine_version: "97.0.4692.98"
-  device:
-    type: tablet
-    brand: ""
-    model: ""
-  os_family: Android
-  browser_family: Chrome
--
-  user_agent: Mozilla/5.0 (Linux; Android 11; vivo 1907 Build/RP1A.200720.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Stargon/4.6.0 Chrome/96.0.4664.104 Mobile Safari/537.36
-  headers:
-    X-Requested-With: net.onecook.browser
-  os:
-    name: Android
-    version: "11"
-    platform: ""
-  client:
-    type: browser
-    name: Stargon
-    version: 4.6.0
-    engine: Blink
-    engine_version: "96.0.4664.104"
-  device:
-    type: smartphone
-    brand: Vivo
-    model: V17 Neo
-  os_family: Android
-  browser_family: Chrome
--
-  user_agent: Mozilla/5.0 (Android 10; Mobile; rv:84.0) Gecko/84.0 Firefox/84.0
-  headers:
-    X-Requested-With: net.onecook.browser
-  os:
-    name: Android
-    version: "10"
-    platform: ""
-  client:
-    type: browser
-    name: Stargon
-    version: ""
-    engine: "Gecko"
-    engine_version: "84.0"
-  device:
-    type: smartphone
-    brand: ""
-    model: ""
-  os_family: Android
-  browser_family: Firefox
--
-  user_agent: Mozilla/5.0 (Linux;) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36
-  headers:
-    X-Requested-With: com.hisense.odinbrowser
-  os:
-    name: Android
-    version: ""
-    platform: ""
-  client:
-    type: browser
-    name: Odin Browser
-    version: ""
-    engine: Blink
-    engine_version: "74.0.3729.157"
-  device:
-    type: tablet
-    brand: ""
-    model: ""
-  os_family: Android
-  browser_family: Chrome
--
-  user_agent: Mozilla/5.0 (Linux; Android 10; SM-A307FN Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/92.0.4515.115 Mobile Safari/537.36
-  headers:
-    X-Requested-With: com.brave.browser
-  os:
-    name: Android
-    version: "10"
-    platform: ""
-  client:
-    type: browser
-    name: Brave
-    version: ""
-    engine: Blink
-    engine_version: "92.0.4515.115"
-  device:
-    type: smartphone
-    brand: Samsung
-    model: Galaxy A30s
-  os_family: Android
-  browser_family: Chrome
--
-  user_agent: Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Focus/5.2 Chrome/91.0.4472.88 Mobile Safari/537.36
-  headers:
-    X-Requested-With: org.mozilla.klar
-  os:
-    name: Android
-    version: "10"
-    platform: ""
-  client:
-    type: browser
-    name: Firefox Klar
-    version: ""
-    engine: Blink
-    engine_version: "91.0.4472.88"
-  device:
-    type: smartphone
-    brand: ""
-    model: ""
-  os_family: Android
-  browser_family: Chrome
--
-  user_agent: Mozilla/5.0 (Linux; Android 11; Redmi Note 8 Pro Build/RP1A.200720.011; ) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/98.0.4758.101 Mobile Safari/537.36
-  headers:
-    X-Requested-With: phx.hot.browser
-  os:
-    name: Android
-    version: "11"
-    platform: ""
-  client:
-    type: browser
-    name: Anka Browser
-    version: ""
-    engine: Blink
-    engine_version: "98.0.4758.101"
-  device:
-    type: phablet
-    brand: Xiaomi
-    model: Redmi Note 8 Pro
-  os_family: Android
-  browser_family: Chrome
--
   user_agent: Mozilla/5.0 (Linux; Android 9; SM-J600L Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/99.0.4844.58 Mobile Safari/537.36
   headers:
     X-Requested-With: org.torproject.android
@@ -625,226 +125,6 @@
     model: Galaxy J6
   os_family: Android
   browser_family: Unknown
--
-  user_agent: Mozilla/5.0 (Linux; Android 8.1.0; TECNO RB6S Build/OPM2.171019.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/70.0.3538.110 Mobile Safari/537.36
-  headers:
-    X-Requested-With: org.mozilla.focus
-  os:
-    name: Android
-    version: 8.1.0
-    platform: ""
-  client:
-    type: browser
-    name: Firefox Focus
-    version: ""
-    engine: Blink
-    engine_version: "70.0.3538.110"
-  device:
-    type: smartphone
-    brand: Tecno Mobile
-    model: Pop 2X Air
-  os_family: Android
-  browser_family: Chrome
--
-  user_agent: Mozilla/5.0 (Linux; Android 7.0; ImSmart A504 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.91 Mobile Safari/537.36
-  headers:
-    X-Requested-With: com.vivaldi.browser
-  os:
-    name: Android
-    version: "7.0"
-    platform: ""
-  client:
-    type: browser
-    name: Vivaldi
-    version: ""
-    engine: Blink
-    engine_version: "51.0.2704.91"
-  device:
-    type: smartphone
-    brand: Impression
-    model: ImSmart A504
-  os_family: Android
-  browser_family: Chrome
--
-  user_agent: Mozilla/5.0 (Linux; Android 10; M2010J19SY Build/QKQ1.200830.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/98.0.4758.87 Mobile Safari/537.36
-  headers:
-    X-Requested-With: web.browser.dragon
-  os:
-    name: Android
-    version: "10"
-    platform: ""
-  client:
-    type: browser
-    name: Dragon Browser
-    version: ""
-    engine: Blink
-    engine_version: "98.0.4758.87"
-  device:
-    type: smartphone
-    brand: Xiaomi
-    model: Redmi 9T
-  os_family: Android
-  browser_family: Chrome
--
-  user_agent: Mozilla/5.0 (Linux; Android 10; YAL-L21 Build/HUAWEIYAL-L21; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/97.0.4692.70 Mobile Safari/537.36
-  headers:
-    X-Requested-With: org.easyweb.browser
-  os:
-    name: Android
-    version: "10"
-    platform: ""
-  client:
-    type: browser
-    name: Easy Browser
-    version: ""
-    engine: Blink
-    engine_version: "97.0.4692.70"
-  device:
-    type: smartphone
-    brand: Huawei
-    model: Honor 20
-  os_family: Android
-  browser_family: Chrome
--
-  user_agent: Mozilla/5.0 (Linux; Android 11; SM-A022G Build/RP1A.200720.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/98.0.4758.101 Mobile Safari/537.36
-  headers:
-    X-Requested-With: com.xbrowser.play
-  os:
-    name: Android
-    version: "11"
-    platform: ""
-  client:
-    type: browser
-    name: XBrowser Mini
-    version: ""
-    engine: Blink
-    engine_version: "98.0.4758.101"
-  device:
-    type: smartphone
-    brand: Samsung
-    model: Galaxy A02
-  os_family: Android
-  browser_family: Chrome
--
-  user_agent: Mozilla/5.0 (Linux; Android 10; AKA-L29 Build/HONORAKA-L29; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.93 Mobile Safari/537.36
-  headers:
-    X-Requested-With: com.sharkeeapp.browser
-  os:
-    name: Android
-    version: "10"
-    platform: ""
-  client:
-    type: browser
-    name: Sharkee Browser
-    version: ""
-    engine: Blink
-    engine_version: "88.0.4324.93"
-  device:
-    type: smartphone
-    brand: Huawei
-    model: Honor 9C
-  os_family: Android
-  browser_family: Chrome
--
-  user_agent: Mozilla/5.0 (Linux; Android 10; M2003J15SC Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/96.0.4664.104 Mobile Safari/537.36
-  headers:
-    X-Requested-With: com.mobiu.browser
-  os:
-    name: Android
-    version: "10"
-    platform: ""
-  client:
-    type: browser
-    name: Lark Browser
-    version: ""
-    engine: Blink
-    engine_version: "96.0.4664.104"
-  device:
-    type: phablet
-    brand: Xiaomi
-    model: Redmi Note 10X
-  os_family: Android
-  browser_family: Chrome
--
-  user_agent: Mozilla/5.0 (Linux; Android 8.1.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.101 Mobile Safari/537.36
-  headers:
-    X-Requested-With: com.qflair.browserq
-  os:
-    name: Android
-    version: 8.1.0
-    platform: ""
-  client:
-    type: browser
-    name: Pluma
-    version: ""
-    engine: Blink
-    engine_version: "98.0.4758.101"
-  device:
-    type: smartphone
-    brand: ""
-    model: ""
-  os_family: Android
-  browser_family: Chrome
--
-  user_agent: Mozilla/5.0 (Linux; Android 11; SM-M215F Build/RP1A.200720.012) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/76.0.3809.111 NoxBrowser/2.0.0 Mobile Safari/537.36
-  headers:
-    X-Requested-With: com.noxgroup.app.browser
-  os:
-    name: Android
-    version: "11"
-    platform: ""
-  client:
-    type: browser
-    name: Nox Browser
-    version: 2.0.0
-    engine: Blink
-    engine_version: "76.0.3809.111"
-  device:
-    type: smartphone
-    brand: Samsung
-    model: Galaxy M21
-  os_family: Android
-  browser_family: Unknown
--
-  user_agent: Mozilla/5.0 (Linux; Android 10; M2006C3LG Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.77 Mobile Safari/537.36
-  headers:
-    X-Requested-With: com.noxgroup.app.browser
-  os:
-    name: Android
-    version: "10"
-    platform: ""
-  client:
-    type: browser
-    name: Nox Browser
-    version: ""
-    engine: Blink
-    engine_version: "91.0.4472.77"
-  device:
-    type: smartphone
-    brand: Xiaomi
-    model: Redmi 9A
-  os_family: Android
-  browser_family: Chrome
--
-  user_agent: Mozilla/5.0 (Linux; Android 11; M1908C3JGG Build/RP1A.200720.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/97.0.4692.87 Mobile Safari/537.36
-  headers:
-    X-Requested-With: com.jio.web
-  os:
-    name: Android
-    version: "11"
-    platform: ""
-  client:
-    type: browser
-    name: JioPages
-    version: ""
-    engine: Blink
-    engine_version: "97.0.4692.87"
-  device:
-    type: phablet
-    brand: Xiaomi
-    model: Redmi Note 8 (2021)
-  os_family: Android
-  browser_family: Chrome
 -
   user_agent: Mozilla/5.0 (Linux; Android 10; PPA-LX2 Build/HUAWEIPPA-LX2; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.108 Mobile Safari/537.36
   headers:
@@ -1765,3 +1045,741 @@
     model: ""
   os_family: Android
   browser_family: Chrome
+-
+  user_agent: Mozilla/5.0 (Linux; Android 10; EML-L29 Build/HUAWEIEML-L29; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.78 Mobile Safari/537.36
+  headers:
+    http-x-requested-with: com.fsecure.ms.darty
+  os:
+    name: Android
+    version: "10"
+    platform: ""
+  client:
+    type: mobile app
+    name: Darty Sécurité
+    version: ""
+  device:
+    type: smartphone
+    brand: Huawei
+    model: P20
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 12; SM-A528B Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.125 Mobile Safari/537.36
+  headers:
+    http-x-requested-with: com.fsecure.ms.dc
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: mobile app
+    name: F-Secure Mobile Security
+    version: ""
+  device:
+    type: smartphone
+    brand: Samsung
+    model: Galaxy A52s 5G
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 12; SM-G973F Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.125 Mobile Safari/537.36
+  headers:
+    http-x-requested-with: com.fsecure.ms.swisscom.sa
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: mobile app
+    name: Swisscom Internet Security
+    version: ""
+  device:
+    type: smartphone
+    brand: Samsung
+    model: Galaxy S10
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; Redmi Note 8 Pro Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/101.0.4951.61 Mobile Safari/537.36
+  headers:
+    http-x-requested-with: com.andrewshu.android.reddit
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: mobile app
+    name: Reddit is fun
+    version: ""
+  device:
+    type: phablet
+    brand: Xiaomi
+    model: Redmi Note 8 Pro
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 8.0.0; SM-G930F Build/R16NW; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.152 Mobile Safari/537.36
+  headers:
+    http-x-requested-with: com.andrewshu.android.redditdonation
+  os:
+    name: Android
+    version: 8.0.0
+    platform: ""
+  client:
+    type: mobile app
+    name: Reddit is fun
+    version: ""
+  device:
+    type: smartphone
+    brand: Samsung
+    model: Galaxy S7
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 10; SM-A750FN Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/84.0.4147.89 Mobile Safari/537.36
+  headers:
+    http-x-requested-with: org.quantumbadger.redreader
+  os:
+    name: Android
+    version: "10"
+    platform: ""
+  client:
+    type: mobile app
+    name: RedReader
+    version: ""
+  device:
+    type: smartphone
+    brand: Samsung
+    model: Galaxy A7 (2018)
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 6.0; HUAWEI MLA-AL10 Build/HUAWEIMLA-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/73.0.3683.90 Mobile Safari/537.36 Weibo (HUAWEI-HUAWEI MLA-AL10__weibo__9.4.3__android__android6.0)
+  headers:
+    http-x-requested-with: com.sina.weibo
+  os:
+    name: Android
+    version: "6.0"
+    platform: ""
+  client:
+    type: mobile app
+    name: Sina Weibo
+    version: 9.4.3
+  device:
+    type: smartphone
+    brand: Huawei
+    model: Maimang 5
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 12; SM-G973F Build/SP1A.210812.016) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/103.0.5060.129 Mobile Safari/537.36
+  headers:
+    http-x-requested-with: com.wiseplay
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: mobile app
+    name: Wiseplay
+    version: ""
+  device:
+    type: smartphone
+    brand: Samsung
+    model: Galaxy S10
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 12; Pixel 5 Build/SQ3A.220605.009.A1; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.129 Mobile Safari/537.36
+  headers:
+    http-x-requested-with: com.fsecure.ms.nifty
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: mobile app
+    name: Always Safe Security 24
+    version: ""
+  device:
+    type: smartphone
+    brand: Google
+    model: Pixel 5
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 11; SM-A217F Build/RP1A.200720.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.164 Mobile Safari/537.36
+  headers:
+    http-x-requested-with: com.zeebusiness.news
+  os:
+    name: Android
+    version: "11"
+    platform: ""
+  client:
+    type: mobile app
+    name: Zee Business
+    version: ""
+  device:
+    type: smartphone
+    brand: Samsung
+    model: Galaxy A21s
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; KYV46 Build/1.070PR.0099.a; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/103.0.5060.71 Mobile Safari/537.36
+  headers:
+    http-x-requested-with: com.awesapp.isp
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: mobile app
+    name: iSafePlay
+    version: ""
+  device:
+    type: smartphone
+    brand: Kyocera
+    model: Torque G04
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 10; CLT-AL01 Build/HUAWEICLT-AL01; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/76.0.3809.89 Mobile Safari/537.36 T7/12.24 BDOS/1.0 (HarmonyOS 2.2.0) SP-engine/2.36.0 baiduboxapp/12.25.0.10 (Baidu; P1 10) NABar/1.0
+  headers:
+    http-x-requested-with: com.baidu.searchbox
+  os:
+    name: HarmonyOS
+    version: 2.2.0
+    platform: ""
+  client:
+    type: mobile app
+    name: Baidu Box App
+    version: 12.25.0.10
+  device:
+    type: smartphone
+    brand: Huawei
+    model: P20 Pro
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; SM-A505FN Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/101.0.4951.61 Mobile Safari/537.36
+  headers:
+    http-x-requested-with: hesoft.T2S
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: mobile app
+    name: T2S
+    version: ""
+  device:
+    type: smartphone
+    brand: Samsung
+    model: Galaxy A50
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 11; M2004J19C Build/RP1A.200720.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/102.0.5005.125 Mobile Safari/537.36
+  headers:
+    http-x-requested-with: hippeis.com.photochecker
+  os:
+    name: Android
+    version: "11"
+    platform: ""
+  client:
+    type: mobile app
+    name: Photo Sherlock
+    version: ""
+  device:
+    type: smartphone
+    brand: Xiaomi
+    model: Redmi 9
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 12; SM-A326U Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/102.0.5005.125 Mobile Safari/537.36
+  headers:
+    http-x-requested-with: com.thinkfree.searchbyimage
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: mobile app
+    name: Reverse Image Search
+    version: ""
+  device:
+    type: smartphone
+    brand: Samsung
+    model: Galaxy A32 5G
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 7.0; 5086A Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/64.0.3282.137 Mobile Safari/537.36
+  headers:
+    http-x-requested-with: com.tct.launcher
+  os:
+    name: Android
+    version: "7.0"
+    platform: ""
+  client:
+    type: mobile app
+    name: Joy Launcher
+    version: ""
+  device:
+    type: smartphone
+    brand: Alcatel
+    model: "5"
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 5.1.1; 5054S Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36
+  headers:
+    http-x-requested-with: com.tcl.live
+  os:
+    name: Android
+    version: 5.1.1
+    platform: ""
+  client:
+    type: mobile app
+    name: TCL Live
+    version: ""
+  device:
+    type: smartphone
+    brand: Alcatel
+    model: One Touch Pop 3 5.5"
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 11; moto g stylus Build/RPRS31.Q1-56-9-15; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/101.0.4951.61 Mobile Safari/537.36
+  headers:
+    http-x-requested-with: com.harshad.someto
+  os:
+    name: Android
+    version: "11"
+    platform: ""
+  client:
+    type: mobile app
+    name: Social Media Explorer
+    version: ""
+  device:
+    type: smartphone
+    brand: Motorola
+    model: Moto G Stylus
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 12; 2107113SG Build/SKQ1.211006.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/103.0.5060.129 Mobile Safari/537.36 Reddit/Version 2022.28.0/Build 533235/Android 12
+  headers:
+    http-x-requested-with: com.reddit.frontpage
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: mobile app
+    name: Reddit
+    version: 2022.28.0
+  device:
+    type: smartphone
+    brand: Xiaomi
+    model: Mi 11T Pro
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 12; CPH2251 Build/SP1A.210812.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/104.0.5112.69 Mobile Safari/537.36
+  headers:
+    http-x-requested-with: com.omshyapps.vpn
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: mobile app
+    name: Omshy VPN
+    version: ""
+  device:
+    type: smartphone
+    brand: OPPO
+    model: Reno 6
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; U; Android 8.1.0; TECNO KA6 Build/O11019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/98.0.4758.101 Mobile Safari/537.36 OPR/8.4.2254.56514
+  headers:
+    http-x-requested-with: com.opera.app.news
+  os:
+    name: Android
+    version: 8.1.0
+    platform: ""
+  client:
+    type: mobile app
+    name: Opera News
+    version: ""
+  device:
+    type: smartphone
+    brand: Tecno Mobile
+    model: Spark Youth
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 11; moto g(20) Build/RTAS31.68-34-2; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/102.0.5005.78 Mobile Safari/537.36
+  headers:
+    http-x-requested-with: com.palmteam.imagesearch
+  os:
+    name: Android
+    version: "11"
+    platform: ""
+  client:
+    type: mobile app
+    name: Search By Image
+    version: ""
+  device:
+    type: smartphone
+    brand: Motorola
+    model: Moto G20
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 11; CPH2001 Build/RP1A.200720.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.127 Mobile Safari/537.36
+  headers:
+    http-x-requested-with: com.sharekaro.app
+  os:
+    name: Android
+    version: "11"
+    platform: ""
+  client:
+    type: mobile app
+    name: ShareKaro
+    version: ""
+  device:
+    type: smartphone
+    brand: OPPO
+    model: A91
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 10; CPH1933 Build/QKQ1.200209.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36
+  headers:
+    http-x-requested-with: com.til.timesnews
+  os:
+    name: Android
+    version: "10"
+    platform: ""
+  client:
+    type: mobile app
+    name: NewsPoint
+    version: ""
+  device:
+    type: smartphone
+    brand: OPPO
+    model: A5 (2020)
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 11; Infinix X658E Build/RP1A.200720.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/101.0.4951.61 Mobile Safari/537.36
+  headers:
+    http-x-requested-with: com.transsion.XOSLauncher
+  os:
+    name: Android
+    version: "11"
+    platform: ""
+  client:
+    type: mobile app
+    name: XOS Launcher
+    version: ""
+  device:
+    type: smartphone
+    brand: Infinix
+    model: Hot 10i
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; TECNO LC6 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.116 Mobile Safari/537.36
+  headers:
+    http-x-requested-with: com.transsion.hilauncher
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: mobile app
+    name: HiOS Launcher
+    version: ""
+  device:
+    type: smartphone
+    brand: Tecno Mobile
+    model: Pouvoir 3 Air
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 10; itel A571L Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36
+  headers:
+    http-x-requested-with: com.transsion.itel.launcher
+  os:
+    name: Android
+    version: "10"
+    platform: ""
+  client:
+    type: mobile app
+    name: itel Launcher
+    version: ""
+  device:
+    type: smartphone
+    brand: iTel
+    model: A26
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532F Build/MMB29T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 TwitterAndroid
+  headers:
+    http-x-requested-with: com.twitter.android
+  os:
+    name: Android
+    version: 6.0.1
+    platform: ""
+  client:
+    type: mobile app
+    name: Twitter
+    version: ""
+  device:
+    type: phablet
+    brand: Samsung
+    model: Galaxy Grand Prime Plus
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J320H Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/49.0.2623.105 Mobile Safari/537.36
+  headers:
+    http-x-requested-with: com.waze
+  os:
+    name: Android
+    version: 5.1.1
+    platform: ""
+  client:
+    type: mobile app
+    name: Waze
+    version: ""
+  device:
+    type: smartphone
+    brand: Samsung
+    model: Galaxy J3 (2016)
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 12; SM-G991B Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.127 Mobile Safari/537.36 TuyaSmart/3.38.1 TuyaSmartH5/1.0.0 TuyaHybrid/1.0.0 For Android/31
+  headers:
+    http-x-requested-with: com.tuya.smartlife
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: mobile app
+    name: Tuya Smart Life
+    version: 3.38.1
+  device:
+    type: smartphone
+    brand: Samsung
+    model: Galaxy S21 5G
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 5.1.1; Alcatel_4060A Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/69.0.3497.100 Mobile Safari/537.36
+  headers:
+    http-x-requested-with: com.cleanmaster.mguard
+  os:
+    name: Android
+    version: 5.1.1
+    platform: ""
+  client:
+    type: mobile app
+    name: Clean Master
+    version: ""
+  device:
+    type: smartphone
+    brand: Alcatel
+    model: 4060A
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 10; SCM-AL09 Build/HUAWEISCM-AL09; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.93 Safari/537.36
+  headers:
+    http-x-requested-with: com.cleanmaster.mguard.huawei
+  os:
+    name: Android
+    version: "10"
+    platform: ""
+  client:
+    type: mobile app
+    name: Clean Master
+    version: ""
+  device:
+    type: tablet
+    brand: Huawei
+    model: MediaPad M6 10.8"
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 12; SM-A135F Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/103.0.5060.71 Mobile Safari/537.36
+  headers:
+    http-x-requested-with: de.twokit.castbrowsernexusplayer
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: mobile app
+    name: TV Cast
+    version: ""
+  device:
+    type: smartphone
+    brand: Samsung
+    model: Galaxy A13
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 9; SM-G950W Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.88 Mobile Safari/537.36
+  headers:
+    http-x-requested-with: de.twokit.video.tv.cast.browser.firetv
+  os:
+    name: Android
+    version: "9"
+    platform: ""
+  client:
+    type: mobile app
+    name: TV Cast
+    version: ""
+  device:
+    type: smartphone
+    brand: Samsung
+    model: Galaxy S8
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 10; Redmi 8A Build/QKQ1.191014.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/87.0.4280.101 Mobile Safari/537.36
+  headers:
+    http-x-requested-with: de.twokit.video.tv.cast.browser.lg
+  os:
+    name: Android
+    version: "10"
+    platform: ""
+  client:
+    type: mobile app
+    name: TV Cast
+    version: ""
+  device:
+    type: smartphone
+    brand: Xiaomi
+    model: Redmi 8A
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 10; SM-T835 Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/102.0.5005.125 Safari/537.36
+  headers:
+    http-x-requested-with: de.twokit.video.tv.cast.browser.samsung
+  os:
+    name: Android
+    version: "10"
+    platform: ""
+  client:
+    type: mobile app
+    name: TV Cast
+    version: ""
+  device:
+    type: tablet
+    brand: Samsung
+    model: Galaxy Tab S4 10.5"
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 11; M2101K7BL Build/RP1A.200720.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/44.0.2403.119 Mobile Safari/537.36
+  headers:
+    http-x-requested-with: com.cleanmaster.security
+  os:
+    name: Android
+    version: "11"
+    platform: ""
+  client:
+    type: mobile app
+    name: CM Security
+    version: ""
+  device:
+    type: phablet
+    brand: Xiaomi
+    model: Redmi Note 10S
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; U; Android 4.3; Google Nexus 4 Build/JLS36G) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+  headers:
+    http-x-requested-with: idm.video.free
+  os:
+    name: Android
+    version: "4.3"
+    platform: ""
+  client:
+    type: mobile app
+    name: IDM Video Download Manager
+    version: ""
+  device:
+    type: smartphone
+    brand: Google
+    model: Nexus 4
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 12; SM-A326U Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/101.0.4951.61 Mobile Safari/537.36
+  headers:
+    http-x-requested-with: mobi.deallauncher.coupons.shopping
+  os:
+    name: Android
+    version: "12"
+    platform: ""
+  client:
+    type: mobile app
+    name: 'Coupons & Deals'
+    version: ""
+  device:
+    type: smartphone
+    brand: Samsung
+    model: Galaxy A32 5G
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; U; Android 7.0; en-us) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.146 Mobile Safari/537.36 QuickCast
+  headers:
+    http-x-requested-with: com.wukongtv.wkcast.intl
+  os:
+    name: Android
+    version: "7.0"
+    platform: ""
+  client:
+    type: mobile app
+    name: Quick Cast
+    version: ""
+  device:
+    type: smartphone
+    brand: ""
+    model: ""
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 8.1; Y27 Build/LMY47I; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36/4.05d.1002.m75.10.14003
+  headers:
+    http-x-requested-with: com.tt.android.dm.view
+  os:
+    name: Android
+    version: "8.1"
+    platform: ""
+  client:
+    type: mobile app
+    name: Download Manager
+    version: ""
+  device:
+    type: smartphone
+    brand: ""
+    model: ""
+  os_family: Android
+  browser_family: Unknown
