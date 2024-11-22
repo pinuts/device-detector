@@ -110,14 +110,14 @@ abstract class AbstractParser
     public const VERSION_TRUNCATION_NONE = -1;
 
     /**
-     * @var CacheInterface
+     * @var CacheInterface|null
      */
-    protected $cache;
+    protected $cache = null;
 
     /**
-     * @var YamlParser
+     * @var YamlParser|null
      */
-    protected $yamlParser;
+    protected $yamlParser = null;
 
     /**
      * parses the currently set useragents and returns possible results
@@ -136,6 +136,43 @@ abstract class AbstractParser
     {
         $this->setUserAgent($ua);
         $this->setClientHints($clientHints);
+    }
+
+    /**
+     * @inheritdoc
+     */
+    public function restoreUserAgentFromClientHints(): void
+    {
+        if (null === $this->clientHints) {
+            return;
+        }
+
+        $deviceModel = $this->clientHints->getModel();
+
+        if ('' === $deviceModel) {
+            return;
+        }
+
+        // Restore Android User Agent
+        if ($this->hasUserAgentClientHintsFragment()) {
+            $osVersion = $this->clientHints->getOperatingSystemVersion();
+            $this->setUserAgent((string) \preg_replace(
+                '(Android (?:10[.\d]*; K|1[1-5]))',
+                \sprintf('Android %s; %s', '' !== $osVersion ? $osVersion : '10', $deviceModel),
+                $this->userAgent
+            ));
+        }
+
+        // Restore Desktop User Agent
+        if (!$this->hasDesktopFragment()) {
+            return;
+        }
+
+        $this->setUserAgent((string) \preg_replace(
+            '(X11; Linux x86_64)',
+            \sprintf('X11; Linux x86_64; %s', $deviceModel),
+            $this->userAgent
+        ));
     }
 
     /**
@@ -244,14 +281,24 @@ abstract class AbstractParser
     protected function getRegexes(): array
     {
         if (empty($this->regexList)) {
-            $cacheKey        = 'DeviceDetector-' . DeviceDetector::VERSION . 'regexes-' . $this->getName();
-            $cacheKey        = (string) \preg_replace('/([^a-z0-9_-]+)/i', '', $cacheKey);
-            $this->regexList = $this->getCache()->fetch($cacheKey);
+            $cacheKey     = 'DeviceDetector-' . DeviceDetector::VERSION . 'regexes-' . $this->getName();
+            $cacheKey     = (string) \preg_replace('/([^a-z0-9_-]+)/i', '', $cacheKey);
+            $cacheContent = $this->getCache()->fetch($cacheKey);
+
+            if (\is_array($cacheContent)) {
+                $this->regexList = $cacheContent;
+            }
 
             if (empty($this->regexList)) {
-                $this->regexList = $this->getYamlParser()->parseFile(
+                $parsedContent = $this->getYamlParser()->parseFile(
                     $this->getRegexesDirectory() . DIRECTORY_SEPARATOR . $this->fixtureFile
                 );
+
+                if (!\is_array($parsedContent)) {
+                    $parsedContent = [];
+                }
+
+                $this->regexList = $parsedContent;
                 $this->getCache()->save($cacheKey, $this->regexList);
             }
         }
@@ -289,6 +336,34 @@ abstract class AbstractParser
     }
 
     /**
+     * Returns if the parsed UA contains the 'Windows NT;' or 'X11; Linux x86_64' fragments
+     *
+     * @return bool
+     */
+    protected function hasDesktopFragment(): bool
+    {
+        $regexExcludeDesktopFragment = \implode('|', [
+            'CE-HTML',
+            ' Mozilla/|Andr[o0]id|Tablet|Mobile|iPhone|Windows Phone|ricoh|OculusBrowser',
+            'PicoBrowser|Lenovo|compatible; MSIE|Trident/|Tesla/|XBOX|FBMD/|ARM; ?([^)]+)',
+        ]);
+
+        return
+            $this->matchUserAgent('(?:Windows (?:NT|IoT)|X11; Linux x86_64)') &&
+            !$this->matchUserAgent($regexExcludeDesktopFragment);
+    }
+
+    /**
+     * Returns if the parsed UA contains the 'Android 10 K;' or Android 10 K Build/` fragment
+     *
+     * @return bool
+     */
+    protected function hasUserAgentClientHintsFragment(): bool
+    {
+        return (bool) \preg_match('~Android (?:10[.\d]*; K(?: Build/|[;)])|1[1-5]\)) AppleWebKit~i', $this->userAgent);
+    }
+
+    /**
      * Matches the useragent against the given regex
      *
      * @param string $regex
@@ -302,7 +377,7 @@ abstract class AbstractParser
         $matches = [];
 
         // only match if useragent begins with given regex or there is no letter before it
-        $regex = '/(?:^|[^A-Z0-9\-_]|[^A-Z0-9\-]_|sprd-|MZ-)(?:' . \str_replace('/', '\/', $regex) . ')/i';
+        $regex = '/(?:^|[^A-Z0-9_-]|[^A-Z0-9-]_|sprd-|MZ-)(?:' . \str_replace('/', '\/', $regex) . ')/i';
 
         try {
             if (\preg_match($regex, $this->userAgent, $matches)) {
@@ -385,7 +460,11 @@ abstract class AbstractParser
         $cacheKey = (string) \preg_replace('/([^a-z0-9_-]+)/i', '', $cacheKey);
 
         if (empty($this->overAllMatch)) {
-            $this->overAllMatch = $this->getCache()->fetch($cacheKey);
+            $overAllMatch = $this->getCache()->fetch($cacheKey);
+
+            if (\is_string($overAllMatch)) {
+                $this->overAllMatch = $overAllMatch;
+            }
         }
 
         if (empty($this->overAllMatch)) {

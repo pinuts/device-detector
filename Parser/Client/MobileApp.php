@@ -15,6 +15,7 @@ namespace DeviceDetector\Parser\Client;
 use DeviceDetector\Cache\CacheInterface;
 use DeviceDetector\ClientHints;
 use DeviceDetector\Parser\Client\Hints\AppHints;
+use DeviceDetector\Yaml\ParserInterface as YamlParser;
 
 /**
  * Class MobileApp
@@ -24,7 +25,7 @@ use DeviceDetector\Parser\Client\Hints\AppHints;
 class MobileApp extends AbstractClientParser
 {
     /**
-     * @var AppHints|null
+     * @var AppHints
      */
     private $appHints;
 
@@ -81,6 +82,17 @@ class MobileApp extends AbstractClientParser
     {
         parent::setCache($cache);
         $this->appHints->setCache($cache);
+    }
+
+    /**
+     * Sets the YamlParser class
+     *
+     * @param YamlParser $yamlParser
+     */
+    public function setYamlParser(YamlParser $yamlParser): void
+    {
+        parent::setYamlParser($yamlParser);
+        $this->appHints->setYamlParser($this->getYamlParser());
     }
 
     /**
