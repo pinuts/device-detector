@@ -181,6 +181,9 @@
 - regex: 'com\.google\.android\.youtube(?:/([\d.]+))?'
   name: 'YouTube'
   version: '$1'
+- regex: 'YouTube/([\d.]+)[JK]'
+  name: 'YouTube'
+  version: '$1'
 
 # Rutube
 - regex: 'Rutube(?:TV)?BlackAndroid'
@@ -2618,6 +2621,19 @@
 # TownNews Now (https://apps.apple.com/us/app/townnews-now/id1434301627)
 - regex: 'Townnews-Now/([\d.]+)'
   name: 'TownNews Now'
+  version: '$1'
+
+- regex: '^Klara/'
+  name: 'Klara'
+  version: ''
+
+- regex: 'EdmodoAndroid/([\d.]+)'
+  name: 'Edmodo'
+  version: '$1'
+
+# HeartFocus Education (https://apps.apple.com/us/app/heartfocus-education/id6618151502)
+- regex: 'HFEducationIOS/([\d.]+)'
+  name: 'HeartFocus Education'
   version: '$1'
 
 # Electron generic apps

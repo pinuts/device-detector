@@ -2303,3 +2303,33 @@
     type: mobile app
     name: TownNews Now
     version: "4.0"
+-
+  user_agent: Klara/1 CFNetwork/1128.0.1 Darwin/19.6.0
+  client:
+    type: mobile app
+    name: Klara
+    version: ""
+-
+  user_agent: Dalvik/2.1.0 (Linux; U; Android 11; SM-A725M Build/RP1A.200720.012) EdmodoAndroid/10.43.5(69a222)
+  client:
+    type: mobile app
+    name: Edmodo
+    version: 10.43.5
+-
+  user_agent: HFEducationIOS/1.0.6+g5a01fc39-dirty (iOS; 18.1.1; iPad13,18)
+  client:
+    type: mobile app
+    name: HeartFocus Education
+    version: 1.0.6
+-
+  user_agent: Mozilla/5.0 (Mobile; LYF/F10Q/LYF-F10Q-000-01-31-071119; Android; rv:48.0) Gecko/48.0 Firefox/48.0 KAIOS/2.5 YouTube/1.92.52.J
+  client:
+    type: mobile app
+    name: YouTube
+    version: 1.92.52
+-
+  user_agent: Mozilla/5.0 (Mobile; ALCATEL A406DL; rv:48.0) Gecko/48.0 Firefox/48.0 KAIOS/2.5.4 YouTube/1.92.52.K
+  client:
+    type: mobile app
+    name: YouTube
+    version: 1.92.52
