@@ -285,7 +285,7 @@ If you are looking for icons to use alongside Device Detector, these repositorie
 
 The lists below are auto generated and updated from time to time. Some of them might not be complete.
 
-*Last update: 2026/03/22*
+*Last update: 2026/05/17*
 
 ### List of detected operating systems:
 
@@ -313,7 +313,7 @@ Alexa, Amarok, Audacious, Banshee, Boxee, Clementine, Deezer, DIGA, Downcast, Fl
 
 ### List of detected PIMs (personal information manager):
 
-Airmail, Apple Mail, Barca, Basecamp, BathyScaphe, BlueMail, DAVdroid, eM Client, Evernote, Foxmail, Franz, Gmail, JaneView, Live5ch, Lotus Notes, MailApp, MailBar, Mailbird, Mail Master, Mailspring, Microsoft Outlook, NAVER Mail, Notion, Outlook Express, Postbox, Raindrop.io, Rambox Pro, SeaMonkey, Spicebird, The Bat!, Thunderbird, Windows Mail, Yahoo! Mail, Yahoo Mail
+Airmail, Apple Mail, Barca, Basecamp, BathyScaphe, BlueMail, DAVdroid, eM Client, Evernote, Foxmail, Franz, Gmail, JaneView, Live5ch, Lotus Notes, Mail, MailApp, MailBar, Mailbird, Mail Master, Mailspring, Microsoft Outlook, NAVER Mail, Notion, Outlook Express, Postbox, Raindrop.io, Rambox Pro, SeaMonkey, Spicebird, The Bat!, Thunderbird, Windows Mail, Yahoo! Mail, Yahoo Mail
 
 ### List of detected feed readers:
 
