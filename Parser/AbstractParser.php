@@ -139,7 +139,7 @@ abstract class AbstractParser
     }
 
     /**
-     * @inheritdoc
+     * Restore useragent from client hints
      */
     public function restoreUserAgentFromClientHints(): void
     {
@@ -169,8 +169,11 @@ abstract class AbstractParser
         }
 
         $this->setUserAgent((string) \preg_replace(
-            '(X11; Linux x86_64)',
-            \sprintf('X11; Linux x86_64; %s', $deviceModel),
+            ['(X11; Linux x86_64)', '(Windows NT 10\.0; Win64; x64)'],
+            [
+                \sprintf('X11; Linux x86_64; %s', $deviceModel),
+                \sprintf('Windows NT 10.0; Win64; x64; %s', $deviceModel),
+            ],
             $this->userAgent
         ));
     }
@@ -187,7 +190,7 @@ abstract class AbstractParser
             self::VERSION_TRUNCATION_MAJOR,
             self::VERSION_TRUNCATION_MINOR,
             self::VERSION_TRUNCATION_PATCH,
-        ])
+        ], true)
         ) {
             return;
         }
@@ -339,6 +342,8 @@ abstract class AbstractParser
      * Returns if the parsed UA contains the 'Windows NT;' or 'X11; Linux x86_64' fragments
      *
      * @return bool
+     *
+     * @throws \Exception
      */
     protected function hasDesktopFragment(): bool
     {
@@ -360,7 +365,13 @@ abstract class AbstractParser
      */
     protected function hasUserAgentClientHintsFragment(): bool
     {
-        return (bool) \preg_match('~Android (?:10[.\d]*; K(?: Build/|[;)])|1[1-5]\)) AppleWebKit~i', $this->userAgent);
+        $pattern = '~Android (?:1[0-6][.\d]*; K(?: Build/|[;)])|1[0-6]\)) AppleWebKit~i';
+
+        if (\preg_match($pattern, $this->userAgent)) {
+            return false === \stripos($this->userAgent, 'Telegram-Android/');
+        }
+
+        return false;
     }
 
     /**
@@ -404,8 +415,9 @@ abstract class AbstractParser
     {
         $search  = [];
         $replace = [];
+        $count   = \count($matches);
 
-        for ($nb = 1; $nb <= \count($matches); $nb++) {
+        for ($nb = 1; $nb <= $count; $nb++) {
             $search[]  = '$' . $nb;
             $replace[] = $matches[$nb] ?? '';
         }
@@ -451,10 +463,16 @@ abstract class AbstractParser
      * Method can be used to speed up detections by making a big check before doing checks for every single regex
      *
      * @return ?array
+     *
+     * @throws \Exception
      */
     protected function preMatchOverall(): ?array
     {
         $regexes = $this->getRegexes();
+
+        if ([] === $regexes) {
+            return null;
+        }
 
         $cacheKey = $this->parserName . DeviceDetector::VERSION . '-all';
         $cacheKey = (string) \preg_replace('/([^a-z0-9_-]+)/i', '', $cacheKey);
